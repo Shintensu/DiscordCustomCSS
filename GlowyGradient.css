@@ -362,14 +362,11 @@
     border-radius: 0px;
 }
 .executedCommand-14-SNW, .repliedMessage-3Z6XBG, .threadMessageAccessory-2W9mjC {
-    top: -30px;
-    left: auto;
-    right: 0px;
-}
-.cozy-VmLDNB .repliedMessage-3Z6XBG {
+    top: -17px;
     display: flex;
+}
+.cozy-VmLDNB .repliedMessage-3Z6XBG {    
     justify-content: center;
-    position: absolute;
 }
 .zalgo-26OfGz.cozy-VmLDNB .header-2jRmjb {
     left: 0px;
