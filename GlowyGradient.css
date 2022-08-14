@@ -1,10 +1,10 @@
-/* @import url(https://zuzumi-f.github.io/Discord-11/messagebubblenew.css); */
-
 @font-face {
   font-family: 'Andy';
   font-style: bold;
-  src: url(https://cdn.discordapp.com/attachments/1008215120285012019/1008250440779051098/ANDYB.ttf) format('truetype');
+  src: url(https://cdn.discordapp.com/attachments/951094529879052288/1008465166473637929/ANDYB.ttf) format('truetype');
 }
+
+
 
 :root 
 {
@@ -12,10 +12,13 @@
     --font-primary: Andy;
     --font-display: Andy;
     --font-headline: Andy;
-  
-    background-image: url(https://cdn.discordapp.com/attachments/1008215120285012019/1008247473971662868/BassPhox.png);
+      
+    background-image: url(https://cdn.discordapp.com/attachments/966394790100992001/1008471972549767258/Redcloudsbehindglass.png);
+    opacity: 1;
     background-size: cover;
 }
+
+
 
 .theme-dark {
     --toast-background: rgb(000 000 000 / 050%);
@@ -48,8 +51,8 @@
     --header-secondary:                             rgb(255 050 050 / 100%); /* Secondary Header Color, Status, User Detail header color */
     --text-normal:                                  rgb(255 000 000 / 100%); /* General Text Color, Clyde logo and Letters for servers without picture */
     --text-muted:                                   rgb(255 100 100 / 100%); /* Text soft color */
-    --text-link:                                    rgb(150 150 150 / 100%); /* Link color */
-    --text-link-low-saturation:                     rgb(000 000 000 / 050%); 
+    --text-link:                                    rgb(255 000 255 / 100%); /* Link color */
+    --text-link-low-saturation:                     rgb(130 130 130 / 050%); 
     --text-positive:                                rgb(000 000 000 / 000%);
     --text-warning:                                 rgb(000 000 000 / 000%);
     --text-danger:                                  rgb(000 000 000 / 000%);
@@ -257,6 +260,23 @@
 
 }
 
+/* Emote picker Background */
+.thin-31rlnD::-webkit-scrollbar-corner {
+    background-color: rgb(000 000 000 / 000%);;
+}
+.thin-31rlnD::-webkit-scrollbar-thumb {
+    background-clip: rgb(000 000 000 / 000%);
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color: rgb(000 000 000 / 100%);
+    min-height: 40px;
+}
+.thin-31rlnD::-webkit-scrollbar-track {
+    border-color: rgb(000 000 000 / 100%);
+    background-color: rgb(000 000 000 / 100%);
+    border: 2px rgb(000 000 000 / 100%);
+}
+
 /* Chat */
 .messageContent-2t3eCI {
     text-indent: 0px;
@@ -274,7 +294,7 @@
 /* Text area box */
 .form-3gdLxP {
     padding: 0px;
-    margin-top: -24px;
+    margin-top: 0px;
     margin-bottom: -24px;
 }
 .textArea-2CLwUE {
@@ -348,6 +368,26 @@
 .attachButtonPlus-3IYelE {
     fill: rgb(000 000 000 / 100%);
 }
+.markup-eYLPri a {
+    color: var(--text-link);
+    word-break: break-word;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: 0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
+}
+.colorLink-12GX9V {
+    color: var(--text-link);
+    text-shadow: 0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
+    content: 'Hello';
+}
+.mentionIcon-7MlVnE {
+    width: 0px;
+    height: 0px;
+    margin-right: 4px;
+}
+.base-3bcbY3 {
+    top: -20px;
+}
 
 /* Chat Bubbles */
 #app-mount .message-2CShn3 .contents-2MsGLg .messageContent-2t3eCI {
@@ -391,6 +431,16 @@
 .zalgo-26OfGz.cozy-VmLDNB[data-is-author-self="true"] .header-2jRmjb {
     right: 0px;
     left: auto;
+}
+.messageContent-2t3eCI {
+    text-indent: 0px;
+    background-image: linear-gradient(90deg, rgb(255 000 000 / 40%), rgb(255 000 000 / 00%));
+   /* box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 000 / 100%), 0 0 0.8em rgb(255 000 000 / 100%), 0 0 1.0em rgb(255 000 000 / 100%), 0 0 1.2em rgb(255 000 000 / 100%); */
+}
+
+
+div[class="mentionButton-3C5YMI"]{
+    color: green;
 }
 
 /* Square PFPs */
