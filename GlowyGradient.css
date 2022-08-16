@@ -493,8 +493,19 @@ rect[class="pointerEvents-9SZWKj"] {
     position: relative;
     border-radius: 0px;
 }
+.lookBlank-21BCro {
+    background: transparent;
+    color: var(--brand-experiment);
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
 
 /* Send Message Button */
+.activeButtonChild-2hgLAO {
+    color: var(--header-primary);
+}
+
 .lookFilled-yCfaCM.colorGreen-3y-Z79 {
     color: rgb(000 000 000 / 100%);;
     background-color: rgb(255 000 000 / 100%);
