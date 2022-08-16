@@ -56,11 +56,11 @@
     --text-positive:                                rgb(000 000 000 / 000%);
     --text-warning:                                 rgb(000 000 000 / 000%);
     --text-danger:                                  rgb(000 000 000 / 000%);
-    --text-brand:                                   rgb(000 000 000 / 000%);
+    --text-brand:                                   rgb(255 000 000 / 100%); /* Send Message Button */
     --interactive-normal:                           rgb(255 000 000 / 100%); /* Button color */
     --interactive-hover:                            rgb(255 255 255 / 100%); /* Button hover Highlight color */
     --interactive-active:                           rgb(255 255 255 / 100%); /* Button select Highlight color */
-    --interactive-muted:                            rgb(200 200 200 / 000%); /* Button soft color */
+    --interactive-muted:                            rgb(255 100 100 / 100%); /* Button soft/inactive color */
     --background-primary:                           rgb(000 000 000 / 010%); /* Main Chat window color*/
     --background-secondary:                         rgb(000 000 000 / 020%); /* Sidebar color*/
     --background-secondary-alt:                     rgb(000 000 000 / 030%); /* Account bar color */
@@ -215,9 +215,9 @@
     --brand-experiment-330: rgb(000 000 000 / 000%);
     --brand-experiment-360: rgb(000 000 000 / 000%);
     --brand-experiment-400: rgb(000 000 000 / 000%);
-    --brand-experiment-430: rgb(000 000 000 / 000%);
+    --brand-experiment-430: rgb(255 255 255 / 100%); /* Send Message Button fade out color */
     --brand-experiment-460: rgb(000 000 000 / 000%);
-    --brand-experiment:     rgb(150 000 000 / 100%); /* Blue highlight color for new messages and clyde icon */
+    --brand-experiment:     rgb(255 000 255 / 100%); /* Blue highlight color for new messages and clyde icon, as well as some buttons */
     --brand-experiment-500: rgb(000 000 000 / 000%);
     --brand-experiment-530: rgb(000 000 000 / 000%);
     --brand-experiment-560: rgb(000 000 000 / 000%);
@@ -492,18 +492,6 @@ rect[class="pointerEvents-9SZWKj"] {
 .button-f2h6uQ {
     position: relative;
     border-radius: 0px;
-}
-.lookBlank-21BCro {
-    background: transparent;
-    color: var(--brand-experiment);
-    border: 0;
-    padding: 0;
-    margin: 0;
-}
-
-/* Send Message Button */
-.activeButtonChild-2hgLAO {
-    color: var(--header-primary);
 }
 
 .lookFilled-yCfaCM.colorGreen-3y-Z79 {
