@@ -457,6 +457,11 @@ foreignObject {
     border-radius: 0%;
 }
 
+/* Status Indicator*/
+rect[class="pointerEvents-9SZWKj"] {
+    fill: rgb(255 000 255 /100%);
+}
+
 /* Voice channel chat preview */
 .chatToasts-3oZ62v {
     position: absolute;
