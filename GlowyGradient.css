@@ -390,6 +390,12 @@
     top: -20px;
 }
 
+/* Bio text box */
+.editor-H2NA06[aria-describedby="uid_10"]  {
+    color: rgb(255 000 000 / 100%);
+    caret-color: rgb(255 000 000 / 100%);
+}
+
 /* Chat Bubbles */
 #app-mount .message-2CShn3 .contents-2MsGLg .messageContent-2t3eCI {
     margin-left: -20px;
@@ -442,6 +448,29 @@
 
 div[class="mentionButton-3C5YMI"]{
     color: green;
+}
+
+
+/* Reply Bar "thread" line */
+.repliedMessage-3Z6XBG:before {
+    --spine-width: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    top: 55%;
+    right: 80%;
+    bottom: 0;
+    left: calc(var(--avatar-size)/2*-1 + var(--gutter)*-1);
+    margin-right: var(--reply-spacing);
+    margin-top: calc(var(--spine-width)*-1/2);
+    margin-left: calc(var(--spine-width)*-1/2);
+    margin-bottom: calc(.125rem - 4px);
+    border-left: var(--spine-width) solid var(--interactive-muted);
+    border-bottom: 0 solid var(--interactive-muted);
+    border-right: 0 solid var(--interactive-muted);
+    border-top: var(--spine-width) solid var(--interactive-muted);
+    border-top-left-radius: 0px;
 }
 
 /* Square PFPs */
