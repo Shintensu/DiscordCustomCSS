@@ -361,6 +361,7 @@
 }
 .editor-H2NA06 {
     color: rgb(000 000 000 / 100%);
+    caret-color: rgb(000 000 000 / 100%);
     text-align: left;
     word-break: break-word;
     white-space: break-spaces!important;
