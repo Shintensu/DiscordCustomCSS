@@ -20,7 +20,7 @@ Install this theme like any other theme:
 2. In BetterDiscord, navigate to themes in settings. Then select "Open themes folder".
 3. Copy the downloaded file to the themes folder.
 4. Make sure the theme is enabled.
-5. Enjoy the them!
+5. Enjoy the theme!
 
 ## KNOWN ISSUES
 - Replies appear incorrectly.
