@@ -30,5 +30,5 @@ Pre-requisites: [BDFDB](https://betterdiscord.app/plugin/BDFDB) must be enabled 
 - The theme doesnt automatically update in BetterDiscord.
 ## Previews
 ##### Cursor not included.
-![Chat Preview](https://user-images.githubusercontent.com/87764384/185081317-082dd991-7f31-4fc7-ac5e-602b59281fa6.jpg)
+![Chat Preview](https://user-images.githubusercontent.com/87764384/185085918-ab7e8c46-2d74-4afd-a025-195a36ef9345.jpg)
 ![Settings Preview](https://user-images.githubusercontent.com/87764384/185081387-386b5ba5-bdae-4d21-9b5d-6663d7edb902.jpg)
