@@ -5,6 +5,7 @@ GlowyGradient - A red and black/transparent theme with some gradients, neon effe
 
 Special thanks to [Phoxy](https://twitter.com/Bass_PHOX) and [Naca](https://twitter.com/nacasatu) for helping with testing and troubleshooting.
 
+
 ## Installation:
 ### Powercord / Replugged
 Install this theme like any other theme:
@@ -27,3 +28,7 @@ Install this theme like any other theme:
 - The Font is broken.
 - Multi-line messages shifts the UI upwards by a bit, making it harder to see the top bar.
 - The theme doesnt automatically update in BetterDiscord.
+## Previews
+##### Cursor not included.
+![Chat Preview](https://user-images.githubusercontent.com/87764384/185081317-082dd991-7f31-4fc7-ac5e-602b59281fa6.jpg)
+![Settings Preview](https://user-images.githubusercontent.com/87764384/185081387-386b5ba5-bdae-4d21-9b5d-6663d7edb902.jpg)
