@@ -1,0 +1,8 @@
+{
+    "name":"Glowy Gradient",
+    "description":"Glowy Gradient - A red and black/transparent theme with some gradients, neon effects and square guild and profile pictures, as well as messenger-like text bubbles.",
+    "version":"1.0.0",
+    "author":"Shintensu",
+    "license": "GPL-3.0",
+    "theme":"GlowyGradient.theme.css"
+}
