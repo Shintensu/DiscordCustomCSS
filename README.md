@@ -15,7 +15,7 @@ Install this theme like any other theme:
 2. In the themes folder, open a command prompt/terminal.
 3. Run `git clone https://github.com/Shintensu/DiscordCustomCSS.git`.
 4. In Powercord/Replugged, select the option "Scan for missing themes".
-5. Enjoy the theme!
+5. Enjoy the theme! ^_^
 
 ### BetterDiscord
 Pre-requisites: [BDFDB](https://betterdiscord.app/plugin/BDFDB) must be enabled for right alinged message bubbles to work!
@@ -23,7 +23,7 @@ Pre-requisites: [BDFDB](https://betterdiscord.app/plugin/BDFDB) must be enabled 
 2. In BetterDiscord, navigate to themes in settings. Then select "Open themes folder".
 3. Copy the downloaded file to the themes folder.
 4. Make sure the theme is enabled.
-5. Enjoy the theme!
+5. Enjoy the theme! ^_^
 
 ## KNOWN ISSUES
 - Replies appear incorrectly.
