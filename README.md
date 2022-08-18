@@ -1,10 +1,12 @@
 # DiscordCustomCSS
 A collection of CSS files for discord customization
+Created by [Phoxy](https://github.com/Bass-PHOX) and [Shintensu](https://github.com/Shintensu)
 
-GlowyGradient - A red and black/transparent theme with some gradients, neon effects, square guild and profile pictures, as well as messenger-like text bubbles.
+GlowyGradient - A red and black/transparent theme with some gradients, neon effects, square guild and profile pictures, as well as messenger-like text bubbles.  
 
-Special thanks to [Phoxy](https://twitter.com/Bass_PHOX) and [Naca](https://twitter.com/nacasatu) for helping with testing and troubleshooting.
-
+Special thanks to:  
+[Naca](https://twitter.com/nacasatu) for helping with testing and troubleshooting.  
+[This](https://github.com/zuzumi-f/Discord-11#message-style) theme for inspiring the message bubble style.
 
 ## Installation:
 ### Powercord / Replugged

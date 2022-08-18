@@ -62,7 +62,7 @@
     --text-muted:                                   rgb(255 100 100 / 100%); /* Text soft color */
     --text-link:                                    rgb(255 000 255 / 100%); /* Link color */
     --text-link-low-saturation:                     rgb(130 130 130 / 050%); 
-    --text-positive:                                rgb(000 000 000 / 000%);
+    --text-positive:                                rgb(255 000 000 / 100%); /* Voice connected */
     --text-warning:                                 rgb(000 000 000 / 000%);
     --text-danger:                                  rgb(000 000 000 / 000%);
     --text-brand:                                   rgb(255 000 000 / 100%); /* Send Message Button */
@@ -571,7 +571,7 @@ rect[class="pointerEvents-9SZWKj"] {
 .colorable-3rVGna.red-3T8maV {
     background: rgb(255 000 255 / 100%);
     box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
-} 
+}
 
 /* User Speaking Highlight*/
 .avatarSpeaking-2pCGrZ {
@@ -585,9 +585,15 @@ rect[class="pointerEvents-9SZWKj"] {
     border-radius: 0%;
 }
 
+/* User Speaking Highlight in private call */
+.border-2BJQjd.speaking-3RWJBr {
+    
+    box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
+}
+
 /* Voice chat background and gradient */
 .gradientContainer-phMG8d {
     height: 160px;
-    background-color: rgb(000 000 000 / 050%);;
+    background-color: rgb(000 000 000 / 050%);
     background-image: none;
 }
