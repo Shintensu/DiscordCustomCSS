@@ -528,6 +528,13 @@ rect[class="pointerEvents-9SZWKj"] {
 .button-1EGGcP.buttonColor-3bP3fX:hover, .button-1EGGcP .buttonColor-3bP3fX:hover {
     background-color: rgb(200 0 200 / 100%);
 }
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+    background-color: rgb(255 000 000 / 100%);
+    color: rgb(0 0 0);
+}
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
+    background-color: rgb(200 000 000 / 100%);
+}
 
 /* All buttons */
 .button-f2h6uQ {
