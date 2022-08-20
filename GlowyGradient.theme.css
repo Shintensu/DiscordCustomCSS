@@ -531,6 +531,7 @@ rect[class="pointerEvents-9SZWKj"] {
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
     background-color: rgb(255 000 000 / 100%);
     color: rgb(0 0 0);
+    box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 000 / 100%), 0 0 0.8em rgb(255 000 000 / 100%), 0 0 1.0em rgb(255 000 000 / 100%), 0 0 1.2em rgb(255 000 000 / 100%);
 }
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
     background-color: rgb(200 000 000 / 100%);
