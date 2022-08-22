@@ -552,6 +552,10 @@ rect[class="pointerEvents-9SZWKj"] {
     background-color: rgb(200 000 000 / 100%);;
 }
 
+.colorBrand-3cPPsm {
+    color: var(--brand-experiment);
+}
+
 /* Call Buttons */
 .controlButton-2PMNom {
     margin: 0 1px;
