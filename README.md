@@ -18,6 +18,7 @@ Install this theme like any other theme:
 5. Enjoy the theme! ^_^
 
 ### BetterDiscord
+#### NOTE: THIS THEME DOES NOT AUTOMATICALLY UPDATE *YET*.
 Pre-requisites: [BDFDB](https://betterdiscord.app/plugin/BDFDB) must be enabled for right alinged message bubbles to work!
 1. Download [this file](https://raw.githubusercontent.com/Shintensu/DiscordCustomCSS/main/GlowyGradient.theme.css).
 2. In BetterDiscord, navigate to themes in settings. Then select "Open themes folder".
