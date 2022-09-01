@@ -17,10 +17,10 @@
 
 :root 
 {
-    	font-family: Andy;
-    --font-primary: Andy;
-    --font-display: Andy;
-    --font-headline: Andy;
+    font-family:      Andy;
+    --font-primary:   Andy;
+    --font-display:   Andy;
+    --font-headline:  Andy;
       
     background-image: url(https://cdn.discordapp.com/attachments/966394790100992001/1008471972549767258/Redcloudsbehindglass.png);
     opacity: 1;
@@ -30,274 +30,268 @@
 
 
 .theme-dark {
-    --toast-background: rgb(000 000 000 / 050%);
-    --toast-header: rgb(000 000 000 / 050%);
-    --toast-contents: rgb(000 000 000 / 050);
-    --toast-box-shadow: rgb(000 000 000 / 050%);
-    --toast-border: rgb(000 000 000 / 050%);
+    --toast-background:                                          rgb(000 000 000 / 050%);
+    --toast-header:                                              rgb(000 000 000 / 050%);
+    --toast-contents:                                            rgb(000 000 000 / 050);
+    --toast-box-shadow:                                          rgb(000 000 000 / 050%);
+    --toast-border:                                              rgb(000 000 000 / 050%);
   
   
-    --search-popout-option-fade: linear-gradient(90deg,hsla(225,calc(var(--saturation-factor, 1)*7.7%),10.2%,0),hsla(225,calc(var(--saturation-factor, 1)*7.7%),10.2%,1) 80%);
-    --search-popout-option-fade-hover: linear-gradient(90deg,hsla(220,calc(var(--saturation-factor, 1)*7.7%),22.9%,0),hsl(220,calc(var(--saturation-factor, 1)*7.7%),22.9%) 50%);
-    --search-popout-option-user-nickname: var(--text-normal);
-    --search-popout-option-user-username: var(--text-muted);
-    --search-popout-option-filter-text: rgb(000 000 000 / 100%);
-    --search-popout-option-non-text-color: rgb(80 30 180 / 30%);
-    --search-popout-option-filter-color: rgb(80 30 180 / 30%);
-    --search-popout-option-answer-color: rgb(80 30 180 / 30%);
-    --search-popout-date-picker-border: 1px solid hsla(214,calc(var(--saturation-factor, 1)*9.1%),15.1%,0.3);
-    --search-popout-date-picker-hint-text: rgb(80 30 180 / 30%);
-    --search-popout-date-picker-hint-value-text: rgb(80 30 180 / 30%);
-    --search-popout-date-picker-hint-value-background: var(--brand-experiment);
-    --search-popout-date-picker-hint-value-background-hover: var(--brand-experiment-430);
+    --search-popout-option-fade:                                 linear-gradient(90deg,hsla(225,calc(var(--saturation-factor, 1)*7.7%),10.2%,0),hsla(225,calc(var(--saturation-factor, 1)*7.7%),10.2%,1) 80%);
+    --search-popout-option-fade-hover:                           linear-gradient(90deg,hsla(220,calc(var(--saturation-factor, 1)*7.7%),22.9%,0),hsl(220,calc(var(--saturation-factor, 1)*7.7%),22.9%) 50%);
+    --search-popout-option-user-nickname:                        var(--text-normal);
+    --search-popout-option-user-username:                        var(--text-muted);
+    --search-popout-option-filter-text:                          rgb(000 000 000 / 100%);
+    --search-popout-option-non-text-color:                       rgb(80 30 180 / 30%);
+    --search-popout-option-filter-color:                         rgb(80 30 180 / 30%);
+    --search-popout-option-answer-color:                         rgb(80 30 180 / 30%);
+    --search-popout-date-picker-border:                          1px solid hsla(214,calc(var(--saturation-factor, 1)*9.1%),15.1%,0.3);
+    --search-popout-date-picker-hint-text:                       rgb(80 30 180 / 30%);
+    --search-popout-date-picker-hint-value-text:                 rgb(80 30 180 / 30%);
+    --search-popout-date-picker-hint-value-background:           var(--brand-experiment);
+    --search-popout-date-picker-hint-value-background-hover:     var(--brand-experiment-430);
   
   
-    --focus-primary:                                rgb(000 000 000 / 050%); /* ??? */
+    --focus-primary:                                             rgb(000 000 000 / 050%); /* ??? */
   
   
   
-    --header-primary:                               rgb(255 000 000 / 100%); /* Main Header Color, Names, Server Names and Selector */
-    --header-secondary:                             rgb(255 050 050 / 100%); /* Secondary Header Color, Status, User Detail header color */
-    --text-normal:                                  rgb(255 000 000 / 100%); /* General Text Color, Clyde logo and Letters for servers without picture */
-    --text-muted:                                   rgb(255 100 100 / 100%); /* Text soft color */
-    --text-link:                                    rgb(255 000 255 / 100%); /* Link color */
-    --text-link-low-saturation:                     rgb(130 130 130 / 050%); 
-    --text-positive:                                rgb(255 000 000 / 100%); /* Voice connected */
-    --text-warning:                                 rgb(000 000 000 / 000%);
-    --text-danger:                                  rgb(000 000 000 / 000%);
-    --text-brand:                                   rgb(255 000 000 / 100%); /* Send Message Button */
-    --interactive-normal:                           rgb(255 000 000 / 100%); /* Button color */
-    --interactive-hover:                            rgb(255 255 255 / 100%); /* Button hover Highlight color */
-    --interactive-active:                           rgb(255 255 255 / 100%); /* Button select Highlight color */
-    --interactive-muted:                            rgb(255 100 100 / 100%); /* Button soft/inactive color */
-    --background-primary:                           rgb(000 000 000 / 010%); /* Main Chat window color*/
-    --background-secondary:                         rgb(000 000 000 / 020%); /* Sidebar color*/
-    --background-secondary-alt:                     rgb(000 000 000 / 030%); /* Account bar color */
-    --background-tertiary:                          rgb(000 000 000 / 015%); /* Overall background color */
-    --background-accent:                            rgb(000 000 000 / 050%); 
-    --background-floating:                          rgb(000 000 000 / 050%); /* Float menu background color */
-    --background-nested-floating:                   rgb(000 000 000 / 000%); 
-    --background-mobile-primary:                    rgb(000 000 000 / 000%);
-    --background-mobile-secondary:                  rgb(000 000 000 / 000%);
-    --chat-background:                              rgb(000 000 000 / 000%);
-    --chat-border:                                  rgb(000 000 000 / 000%);
-    --chat-input-container-background:              rgb(000 000 000 / 000%);
-    --background-modifier-hover:                    rgb(000 000 000 / 050%); /* Channel hover Highlight color */
-    --background-modifier-active:                   rgb(000 000 000 / 050%); /* Channel switch Highlight color */
-    --background-modifier-selected:                 rgb(000 000 000 / 050%); /* Channel select Highlight color */
-    --background-modifier-accent:                   rgb(000 000 000 / 000%);
-    --info-positive-background:                     rgb(000 000 000 / 000%);
-    --info-positive-foreground:                     rgb(000 000 000 / 000%);
-    --info-positive-text:                           rgb(000 000 000 / 000%);
-    --info-warning-background:                      rgb(000 000 000 / 000%);
-    --info-warning-foreground:                      rgb(000 000 000 / 000%);
-    --info-warning-text:                            rgb(000 000 000 / 000%);
-    --info-danger-background:                       rgb(000 000 000 / 000%);
-    --info-danger-foreground:                       rgb(000 000 000 / 000%);
-    --info-danger-text:                             rgb(000 000 000 / 000%);
-    --info-help-background:                         rgb(000 000 000 / 000%);
-    --info-help-foreground:                         rgb(000 000 000 / 000%);
-    --info-help-text:                               rgb(000 000 000 / 000%);
-    --status-positive-background:                   rgb(000 000 000 / 000%);
-    --status-positive-text:                         rgb(000 000 000 / 000%);
-    --status-warning-background:                    rgb(000 000 000 / 000%);
-    --status-warning-text:                          rgb(000 000 000 / 000%);
-    --status-danger-background:                     rgb(000 000 000 / 000%);
-    --status-danger-text:                           rgb(000 000 000 / 000%);
-    --status-danger:                                rgb(255 000 255 / 100%); /* Attention seeking color, pings, new message notifications */
-    --status-positive:                              rgb(000 000 000 / 000%);
-    --status-warning:                               rgb(000 000 000 / 000%);
-    --button-danger-background:                     rgb(000 000 000 / 000%);
-    --button-danger-background-hover:               rgb(000 000 000 / 000%);
-    --button-danger-background-active:              rgb(000 000 000 / 000%);
-    --button-danger-background-disabled:            rgb(000 000 000 / 000%);
-    --button-positive-background:                   rgb(000 000 000 / 000%);
-    --button-positive-background-hover:             rgb(000 000 000 / 000%);
-    --button-positive-background-active:            rgb(000 000 000 / 000%);
-    --button-positive-background-disabled:          rgb(000 000 000 / 000%);
-    --button-secondary-background:                  rgb(000 000 000 / 000%);
-    --button-secondary-background-hover:            rgb(000 000 000 / 000%);
-    --button-secondary-background-active:           rgb(000 000 000 / 000%);
-    --button-secondary-background-disabled:         rgb(000 000 000 / 000%);
-    --button-outline-danger-text:                   rgb(000 000 000 / 000%);
-    --button-outline-danger-border:                 rgb(000 000 000 / 000%);
-    --button-outline-danger-background:             rgb(000 000 000 / 000%);
-    --button-outline-danger-background-hover:       rgb(000 000 000 / 000%);
-    --button-outline-danger-text-hover:             rgb(000 000 000 / 000%);
-    --button-outline-danger-border-hover:           rgb(000 000 000 / 000%);
-    --button-outline-danger-background-active:      rgb(000 000 000 / 000%);
-    --button-outline-danger-text-active:            rgb(000 000 000 / 000%);
-    --button-outline-danger-border-active:          rgb(000 000 000 / 000%);
-    --button-outline-positive-text:                 rgb(000 000 000 / 000%);
-    --button-outline-positive-border:               rgb(000 000 000 / 000%);
-    --button-outline-positive-background:           rgb(000 000 000 / 000%);
-    --button-outline-positive-background-hover:     rgb(000 000 000 / 000%);
-    --button-outline-positive-text-hover:           rgb(000 000 000 / 000%);
-    --button-outline-positive-border-hover:         rgb(000 000 000 / 000%);
-    --button-outline-positive-background-active:    rgb(000 000 000 / 000%);
-    --button-outline-positive-text-active:          rgb(000 000 000 / 000%);
-    --button-outline-positive-border-active:        rgb(000 000 000 / 000%);
-    --button-outline-brand-text:                    rgb(000 000 000 / 000%);
-    --button-outline-brand-border:                  rgb(000 000 000 / 000%);
-    --button-outline-brand-background:              rgb(000 000 000 / 000%);
-    --button-outline-brand-background-hover:        rgb(000 000 000 / 000%);
-    --button-outline-brand-text-hover:              rgb(000 000 000 / 000%);
-    --button-outline-brand-border-hover:            rgb(000 000 000 / 000%);
-    --button-outline-brand-background-active:       rgb(000 000 000 / 000%);
-    --button-outline-brand-text-active:             rgb(000 000 000 / 000%);
-    --button-outline-brand-border-active:           rgb(000 000 000 / 000%);
-    --button-outline-primary-text:                  rgb(000 000 000 / 000%);
-    --button-outline-primary-border:                rgb(000 000 000 / 000%);
-    --button-outline-primary-background:            rgb(000 000 000 / 000%);
-    --button-outline-primary-background-hover:      rgb(000 000 000 / 000%);
-    --button-outline-primary-text-hover:            rgb(000 000 000 / 000%);
-    --button-outline-primary-border-hover:          rgb(000 000 000 / 000%);
-    --button-outline-primary-background-active:     rgb(000 000 000 / 000%);
-    --button-outline-primary-text-active:           rgb(000 000 000 / 000%);
-    --button-outline-primary-border-active:         rgb(000 000 000 / 000%);
-    --modal-background:                             rgb(000 000 000 / 000%);
-    --modal-footer-background:                      rgb(000 000 000 / 000%);
-    --scrollbar-thin-thumb:                         rgb(000 000 000 / 000%);
-    --scrollbar-thin-track:                         rgb(000 000 000 / 000%);
-    --scrollbar-auto-thumb:                         rgb(000 000 000 / 000%);
-    --scrollbar-auto-track:                         rgb(000 000 000 / 000%);
-    --scrollbar-auto-scrollbar-color-thumb:         rgb(000 000 000 / 000%);
-    --scrollbar-auto-scrollbar-color-track:         rgb(000 000 000 / 000%);
-    --input-background:                             rgb(000 000 000 / 100%);
-    --input-placeholder-text:                       rgb(000 000 000 / 100%);
-    --logo-primary:                                 rgb(000 000 000 / 000%);
-    --control-brand-foreground:                     rgb(000 000 000 / 000%);
-    --control-brand-foreground-new:                 rgb(000 000 000 / 000%);
-    --background-mentioned:                         rgb(255 000 000 / 010%); /* Mention highlight color */
-    --background-mentioned-hover:                   rgb(050 000 000 / 030%); /* Mention highlight color on hover*/
-    --background-message-hover:                     rgb(000 000 000 / 030%); /* Message highlight color on hover*/
-    --background-message-automod:                   rgb(000 000 000 / 000%);
-    --background-message-automod-hover:             rgb(000 000 000 / 000%);
-    --background-message-highlight:                 rgb(000 000 000 / 000%);
-    --background-message-highlight-hover:           rgb(000 000 000 / 000%);
-    --channels-default:                             rgb(255 000 000 / 100%); /* Channel and user list color */
-    --channel-icon:                                 rgb(255 000 000 / 100%); /* Channel symbol color */
-    --channel-text-area-placeholder:                rgb(000 000 000 / 100%); /* Message box text color */
-    --channeltextarea-background:                   rgb(050 000 000 / 000%); /* Message box background color */
-    --activity-card-background:                     rgb(000 000 000 / 000%);
-    --textbox-markdown-syntax:                      rgb(255 000 000 / 100%); /* Message box markdown color */
-    --spoiler-revealed-background:                  rgb(000 000 000 / 000%);
-    --spoiler-hidden-background:                    rgb(000 000 000 / 000%);
-    --android-navigation-bar-background:            rgb(000 000 000 / 000%);
-    --android-ripple:                               rgb(000 000 000 / 000%);
-    --deprecated-card-bg:                           rgb(000 000 000 / 000%);
-    --deprecated-card-editable-bg:                  rgb(000 000 000 / 000%);
-    --deprecated-store-bg:                          rgb(000 000 000 / 000%);
-    --deprecated-quickswitcher-input-background:    rgb(000 000 000 / 000%);
-    --deprecated-quickswitcher-input-placeholder:   rgb(000 000 000 / 000%);
-    --deprecated-text-input-bg:                     rgb(000 000 000 / 000%);
-    --deprecated-text-input-border:                 rgb(000 000 000 / 000%);
-    --deprecated-text-input-border-hover:           rgb(000 000 000 / 000%);
-    --deprecated-text-input-border-disabled:        rgb(000 000 000 / 000%);
-    --deprecated-text-input-prefix:                 rgb(000 000 000 / 000%);
+    --header-primary:                                            rgb(255 000 000 / 100%); /* Main Header, Names, Server Names and Selector */
+    --header-secondary:                                          rgb(255 050 050 / 100%); /* Secondary Header, Status, User Detail header */
+    --text-normal:                                               rgb(255 000 000 / 100%); /* General Text Color, Clyde logo and Letters for servers without picture */
+    --text-muted:                                                rgb(255 100 100 / 100%); /* Soft/Muted text */
+    --text-link:                                                 rgb(255 000 255 / 100%); /* Links */
+    --text-link-low-saturation:                                  rgb(130 130 130 / 050%); /* Recently used links */
+    --text-positive:                                             rgb(255 000 000 / 100%); /* Voice connected */
+    --text-warning:                                              rgb(000 000 000 / 000%);
+    --text-danger:                                               rgb(000 000 000 / 000%);
+    --text-brand:                                                rgb(255 000 000 / 100%); /* Send Message Button */
+    --interactive-normal:                                        rgb(255 000 000 / 100%); /* Buttons */
+    --interactive-hover:                                         rgb(255 255 255 / 100%); /* Button hover highlight */
+    --interactive-active:                                        rgb(255 200 200 / 100%); /* Button select highlight */
+    --interactive-muted:                                         rgb(255 100 100 / 100%); /* Button soft/inactive */
+    --background-primary:                                        rgb(000 000 000 / 010%); /* Main Chat window */
+    --background-secondary:                                      rgb(000 000 000 / 020%); /* Sidebar */
+    --background-secondary-alt:                                  rgb(000 000 000 / 030%); /* Account bar */
+    --background-tertiary:                                       rgb(000 000 000 / 015%); /* Overall background */
+    --background-accent:                                         rgb(255 000 000 / 040%); 
+    --background-floating:                                       rgb(000 000 000 / 050%); /* Float menu background */
+    --background-nested-floating:                                rgb(000 000 000 / 000%); 
+    --background-mobile-primary:                                 rgb(000 000 000 / 000%);
+    --background-mobile-secondary:                               rgb(000 000 000 / 000%);
+    --chat-background:                                           rgb(000 000 000 / 000%);
+    --chat-border:                                               rgb(000 000 000 / 000%);
+    --chat-input-container-background:                           rgb(000 000 000 / 000%);
+    --background-modifier-hover:                                 rgb(000 000 000 / 050%); /* Channel hover Highlight */
+    --background-modifier-active:                                rgb(000 000 000 / 050%); /* Channel switch Highlight */
+    --background-modifier-selected:                              rgb(000 000 000 / 050%); /* Channel select Highlight */
+    --background-modifier-accent:                                rgb(000 000 000 / 000%);
+    --info-positive-background:                                  rgb(000 000 000 / 000%);
+    --info-positive-foreground:                                  rgb(000 000 000 / 000%);
+    --info-positive-text:                                        rgb(000 000 000 / 000%);
+    --info-warning-background:                                   rgb(000 000 000 / 000%);
+    --info-warning-foreground:                                   rgb(000 000 000 / 000%);
+    --info-warning-text:                                         rgb(000 000 000 / 000%);
+    --info-danger-background:                                    rgb(000 000 000 / 000%);
+    --info-danger-foreground:                                    rgb(000 000 000 / 000%);
+    --info-danger-text:                                          rgb(000 000 000 / 000%);
+    --info-help-background:                                      rgb(000 000 000 / 000%);
+    --info-help-foreground:                                      rgb(000 000 000 / 000%);
+    --info-help-text:                                            rgb(000 000 000 / 000%);
+    --status-positive-background:                                rgb(000 000 000 / 000%);
+    --status-positive-text:                                      rgb(000 000 000 / 000%);
+    --status-warning-background:                                 rgb(000 000 000 / 000%);
+    --status-warning-text:                                       rgb(000 000 000 / 000%);
+    --status-danger-background:                                  rgb(000 000 000 / 000%);
+    --status-danger-text:                                        rgb(000 000 000 / 000%);
+    --status-danger:                                             rgb(255 000 255 / 100%); /* Pings, new message notifications, warnings */
+    --status-positive:                                           rgb(000 000 000 / 000%);
+    --status-warning:                                            rgb(000 000 000 / 000%);
+    --button-danger-background:                                  rgb(000 000 000 / 000%);
+    --button-danger-background-hover:                            rgb(000 000 000 / 000%);
+    --button-danger-background-active:                           rgb(000 000 000 / 000%);
+    --button-danger-background-disabled:                         rgb(000 000 000 / 000%);
+    --button-positive-background:                                rgb(000 000 000 / 000%);
+    --button-positive-background-hover:                          rgb(000 000 000 / 000%);
+    --button-positive-background-active:                         rgb(000 000 000 / 000%);
+    --button-positive-background-disabled:                       rgb(000 000 000 / 000%);
+    --button-secondary-background:                               rgb(000 000 000 / 000%);
+    --button-secondary-background-hover:                         rgb(000 000 000 / 000%);
+    --button-secondary-background-active:                        rgb(000 000 000 / 000%);
+    --button-secondary-background-disabled:                      rgb(000 000 000 / 000%);
+    --button-outline-danger-text:                                rgb(000 000 000 / 000%);
+    --button-outline-danger-border:                              rgb(000 000 000 / 000%);
+    --button-outline-danger-background:                          rgb(000 000 000 / 000%);
+    --button-outline-danger-background-hover:                    rgb(000 000 000 / 000%);
+    --button-outline-danger-text-hover:                          rgb(000 000 000 / 000%);
+    --button-outline-danger-border-hover:                        rgb(000 000 000 / 000%);
+    --button-outline-danger-background-active:                   rgb(000 000 000 / 000%);
+    --button-outline-danger-text-active:                         rgb(000 000 000 / 000%);
+    --button-outline-danger-border-active:                       rgb(000 000 000 / 000%);
+    --button-outline-positive-text:                              rgb(000 000 000 / 000%);
+    --button-outline-positive-border:                            rgb(000 000 000 / 000%);
+    --button-outline-positive-background:                        rgb(000 000 000 / 000%);
+    --button-outline-positive-background-hover:                  rgb(000 000 000 / 000%);
+    --button-outline-positive-text-hover:                        rgb(000 000 000 / 000%);
+    --button-outline-positive-border-hover:                      rgb(000 000 000 / 000%);
+    --button-outline-positive-background-active:                 rgb(000 000 000 / 000%);
+    --button-outline-positive-text-active:                       rgb(000 000 000 / 000%);
+    --button-outline-positive-border-active:                     rgb(000 000 000 / 000%);
+    --button-outline-brand-text:                                 rgb(000 000 000 / 000%);
+    --button-outline-brand-border:                               rgb(000 000 000 / 000%);
+    --button-outline-brand-background:                           rgb(000 000 000 / 000%);
+    --button-outline-brand-background-hover:                     rgb(000 000 000 / 000%);
+    --button-outline-brand-text-hover:                           rgb(000 000 000 / 000%);
+    --button-outline-brand-border-hover:                         rgb(000 000 000 / 000%);
+    --button-outline-brand-background-active:                    rgb(000 000 000 / 000%);
+    --button-outline-brand-text-active:                          rgb(000 000 000 / 000%);
+    --button-outline-brand-border-active:                        rgb(000 000 000 / 000%);
+    --button-outline-primary-text:                               rgb(000 000 000 / 000%);
+    --button-outline-primary-border:                             rgb(000 000 000 / 000%);
+    --button-outline-primary-background:                         rgb(000 000 000 / 000%);
+    --button-outline-primary-background-hover:                   rgb(000 000 000 / 000%);
+    --button-outline-primary-text-hover:                         rgb(000 000 000 / 000%);
+    --button-outline-primary-border-hover:                       rgb(000 000 000 / 000%);
+    --button-outline-primary-background-active:                  rgb(000 000 000 / 000%);
+    --button-outline-primary-text-active:                        rgb(000 000 000 / 000%);
+    --button-outline-primary-border-active:                      rgb(000 000 000 / 000%);
+    --modal-background:                                          rgb(000 000 000 / 000%);
+    --modal-footer-background:                                   rgb(000 000 000 / 000%);
+    --scrollbar-thin-thumb:                                      rgb(000 000 000 / 000%);
+    --scrollbar-thin-track:                                      rgb(000 000 000 / 000%);
+    --scrollbar-auto-thumb:                                      rgb(000 000 000 / 000%);
+    --scrollbar-auto-track:                                      rgb(000 000 000 / 000%);
+    --scrollbar-auto-scrollbar-color-thumb:                      rgb(000 000 000 / 000%);
+    --scrollbar-auto-scrollbar-color-track:                      rgb(000 000 000 / 000%);
+    --input-background:                                          rgb(000 000 000 / 100%);
+    --input-placeholder-text:                                    rgb(000 000 000 / 100%);
+    --logo-primary:                                              rgb(000 000 000 / 000%);
+    --control-brand-foreground:                                  rgb(000 000 000 / 000%);
+    --control-brand-foreground-new:                              rgb(000 000 000 / 000%);
+    --background-mentioned:                                      rgb(255 000 000 / 010%); /* Mention highlight */
+    --background-mentioned-hover:                                rgb(050 000 000 / 030%); /* Mention highlight on hover*/
+    --background-message-hover:                                  rgb(000 000 000 / 030%); /* Message highlight on hover*/
+    --background-message-automod:                                rgb(000 000 000 / 000%);
+    --background-message-automod-hover:                          rgb(000 000 000 / 000%);
+    --background-message-highlight:                              rgb(000 000 000 / 000%);
+    --background-message-highlight-hover:                        rgb(000 000 000 / 000%);
+    --channels-default:                                          rgb(255 000 000 / 100%); /* Channel and user list */
+    --channel-icon:                                              rgb(255 000 000 / 100%); /* Channel symbol */
+    --channel-text-area-placeholder:                             rgb(000 000 000 / 100%); /* Message box text */
+    --channeltextarea-background:                                rgb(050 000 000 / 000%); /* Message box background */
+    --activity-card-background:                                  rgb(000 000 000 / 000%);
+    --textbox-markdown-syntax:                                   rgb(255 000 000 / 100%); /* Message box markdown */
+    --spoiler-revealed-background:                               rgb(000 000 000 / 000%);
+    --spoiler-hidden-background:                                 rgb(000 000 000 / 000%);
+    --android-navigation-bar-background:                         rgb(000 000 000 / 000%);
+    --android-ripple:                                            rgb(000 000 000 / 000%);
+    --deprecated-card-bg:                                        rgb(000 000 000 / 000%);
+    --deprecated-card-editable-bg:                               rgb(000 000 000 / 000%);
+    --deprecated-store-bg:                                       rgb(000 000 000 / 000%);
+    --deprecated-quickswitcher-input-background:                 rgb(000 000 000 / 000%);
+    --deprecated-quickswitcher-input-placeholder:                rgb(000 000 000 / 000%);
+    --deprecated-text-input-bg:                                  rgb(000 000 000 / 000%);
+    --deprecated-text-input-border:                              rgb(000 000 000 / 000%);
+    --deprecated-text-input-border-hover:                        rgb(000 000 000 / 000%);
+    --deprecated-text-input-border-disabled:                     rgb(000 000 000 / 000%);
+    --deprecated-text-input-prefix:                              rgb(000 000 000 / 000%);
   
   	
   
   
-    --guild-header-text-shadow: 0 1px 1px hsla(0,calc(var(--saturation-factor, 1)*0%),0%,0.4);
-    --elevation-stroke: 0 0 0 1px hsla(240,calc(var(--saturation-factor, 1)*11.1%),1.8%,0.15);
-    --elevation-low: 0 1px 0 hsla(240,calc(var(--saturation-factor, 1)*11.1%),1.8%,0.2),0 1.5px 0 hsla(240,calc(var(--saturation-factor, 1)*7.7%),2.5%,0.05),0 2px 0 hsla(240,calc(var(--saturation-factor, 1)*11.1%),1.8%,0.05);
-    --elevation-medium: 0 4px 4px hsla(0,calc(var(--saturation-factor, 1)*0%),0%,0.16);
-    --elevation-high: 0 8px 16px hsla(0,calc(var(--saturation-factor, 1)*0%),0%,0.24);
+    --guild-header-text-shadow:                                  0 1px 1px hsla(0,calc(var(--saturation-factor, 1)*0%),0%,0.4);
+    --elevation-stroke:                                          0 0 0 1px hsla(240,calc(var(--saturation-factor, 1)*11.1%),1.8%,0.15);
+    --elevation-low:                                             0 1px 0 hsla(240,calc(var(--saturation-factor, 1)*11.1%),1.8%,0.2),0 1.5px 0 hsla(240,calc(var(--saturation-factor, 1)*7.7%),2.5%,0.05),0 2px 0 hsla(240,calc(var(--saturation-factor, 1)*11.1%),1.8%,0.05);
+    --elevation-medium:                                          0 4px 4px hsla(0,calc(var(--saturation-factor, 1)*0%),0%,0.16);
+    --elevation-high:                                            0 8px 16px hsla(0,calc(var(--saturation-factor, 1)*0%),0%,0.24);
   
     --brightness: calc(1.5 - var(--saturation-factor, 1)*0.5);
     --contrast: var(--saturation-factor,1); 
 }
 
 .theme-dark .container-2cd8Mz {
-    background-color: rgb(000 000 000 / 000%);
+    background-color:                                            rgb(000 000 000 / 000%);
 }
 
 [data-popout-root], html {
-    --brand-experiment-100: rgb(000 000 000 / 000%);
-    --brand-experiment-130: rgb(000 000 000 / 000%);
-    --brand-experiment-160: rgb(000 000 000 / 000%);
-    --brand-experiment-200: rgb(000 000 000 / 100%); /* Mention Text */
-    --brand-experiment-230: rgb(000 000 000 / 000%);
-    --brand-experiment-260: rgb(000 000 000 / 000%);
-    --brand-experiment-300: rgb(000 000 000 / 000%);
-    --brand-experiment-330: rgb(000 000 000 / 000%);
-    --brand-experiment-360: rgb(000 000 000 / 000%);
-    --brand-experiment-400: rgb(000 000 000 / 000%);
-    --brand-experiment-430: rgb(255 255 255 / 100%); /* Send Message Button fade out color */
-    --brand-experiment-460: rgb(000 000 000 / 000%);
-    --brand-experiment:     rgb(255 000 255 / 100%); /* Blue highlight color for new messages and clyde icon, as well as some buttons */
-    --brand-experiment-500: rgb(000 000 000 / 000%);
-    --brand-experiment-530: rgb(000 000 000 / 000%);
-    --brand-experiment-560: rgb(000 000 000 / 000%);
-    --brand-experiment-600: rgb(000 000 000 / 000%);
-    --brand-experiment-630: rgb(000 000 000 / 000%);
-    --brand-experiment-660: rgb(000 000 000 / 000%);
-    --brand-experiment-700: rgb(000 000 000 / 000%);
-    --brand-experiment-730: rgb(000 000 000 / 000%);
-    --brand-experiment-760: rgb(000 000 000 / 000%);
-    --brand-experiment-800: rgb(000 000 000 / 000%);
-    --brand-experiment-830: rgb(000 000 000 / 000%);
-    --brand-experiment-860: rgb(000 000 000 / 000%);
-    --brand-experiment-900: rgb(000 000 000 / 000%);
-    --brand-experiment-05a: rgb(000 000 000 / 000%);
-    --brand-experiment-10a: rgb(000 000 000 / 000%);
-    --brand-experiment-15a: rgb(000 000 000 / 000%);
-    --brand-experiment-20a: rgb(000 000 000 / 000%);
-    --brand-experiment-25a: rgb(000 000 000 / 000%);
-    --brand-experiment-30a: rgb(255 000 255 / 100%); /* Mention Background */
-    --brand-experiment-35a: rgb(000 000 000 / 000%);
-    --brand-experiment-40a: rgb(000 000 000 / 000%);
-    --brand-experiment-45a: rgb(000 000 000 / 000%);
-    --brand-experiment-50a: rgb(000 000 000 / 000%);
-    --brand-experiment-55a: rgb(000 000 000 / 000%);
-    --brand-experiment-60a: rgb(000 000 000 / 000%);
-    --brand-experiment-65a: rgb(000 000 000 / 000%);
-    --brand-experiment-70a: rgb(000 000 000 / 000%);
-    --brand-experiment-75a: rgb(000 000 000 / 000%);
-    --brand-experiment-80a: rgb(000 000 000 / 000%);
-    --brand-experiment-85a: rgb(000 000 000 / 000%);
-    --brand-experiment-90a: rgb(000 000 000 / 000%);
-    --brand-experiment-95a: rgb(000 000 000 / 000%);
-}
+    --brand-experiment-100:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-130:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-160:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-200:                                      rgb(000 000 000 / 100%); /* Mention and bio Text */
+    --brand-experiment-230:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-260:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-300:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-330:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-360:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-400:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-430:                                      rgb(255 255 255 / 100%); /* Send Message Button fade out */
+    --brand-experiment-460:                                      rgb(000 000 000 / 000%);
+    --brand-experiment:                                          rgb(255 000 255 / 100%); /* Highlight bar for new messages and clyde icon, as well as some buttons */
+    --brand-experiment-500:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-530:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-560:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-600:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-630:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-660:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-700:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-730:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-760:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-800:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-830:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-860:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-900:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-05a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-10a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-15a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-20a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-25a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-30a:                                      rgb(255 000 255 / 100%); /* Mention Background */
+    --brand-experiment-35a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-40a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-45a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-50a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-55a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-60a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-65a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-70a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-75a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-80a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-85a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-90a:                                      rgb(000 000 000 / 000%);
+    --brand-experiment-95a:                                      rgb(000 000 000 / 000%);
 
-/* App background */
-.appMount-2yBXZl, body {
+    --slight-glow:                                               0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
+    --full-primary-glow:                                         0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
+    --full-secondary-glow:                                       0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 000 / 100%), 0 0 0.8em rgb(255 000 000 / 100%), 0 0 1.0em rgb(255 000 000 / 100%), 0 0 1.2em rgb(255 000 000 / 100%);
+    --inset-primary-glow:                                        inset 0 0 0.1em rgb(255 255 255 / 100%), inset 0 0 0.2em rgb(255 255 255 / 100%), inset 0 0 0.3em rgb(255 255 255 / 100%), inset 0 0 0.4em rgb(255 125 255 / 100%), inset 0 0 0.6em rgb(255 000 255 / 100%), inset 0 0 0.8em rgb(255 000 255 / 100%), inset 0 0 1.0em rgb(255 000 255 / 100%), inset 0 0 1.2em rgb(255 000 255 / 100%)
+}                                                                 
 
-}
-.app-2CXKsg {
 
-}
-
-/* Emote picker Background */
-.thin-31rlnD::-webkit-scrollbar-corner {
-    background-color: rgb(000 000 000 / 000%);;
-}
-.thin-31rlnD::-webkit-scrollbar-thumb {
-    background-clip: rgb(000 000 000 / 000%);
-    border: 2px solid transparent;
-    border-radius: 4px;
-    background-color: rgb(000 000 000 / 100%);
-    min-height: 40px;
-}
-.thin-31rlnD::-webkit-scrollbar-track {
-    border-color: rgb(000 000 000 / 100%);
-    background-color: rgb(000 000 000 / 100%);
-    border: 2px rgb(000 000 000 / 100%);
-}
-
-/* Chat */
-.messageContent-2t3eCI {
-    text-indent: 0px;
-    background-image: linear-gradient(90deg, rgb(255 000 000 / 40%), rgb(255 000 000 / 00%));
+/* Emote autocomplete picker background */
+.theme-dark .autocomplete-3NRXG8 {
+    background-color: var(--background-secondary);
 }
 
 /* @Mentions */
 .theme-dark .wrapper-1ZcZW- {
-    background: var(--brand-experiment-30a);
+    box-shadow: var(--full-primary-glow);
+}
+
+/* Code block text*/
+.codeBlockText-28BOxV, .codeLine-2C-9aH {
     color: var(--brand-experiment-200);
-    box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
-   /* text-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%); */
+}
+
+/* Voice channel chat */
+.container-3XgAHv {
+    border-radius: 0px;
+    background: var(--background-secondary-alt);
+}
+
+/* Bio text box */
+.editor-H2NA06[aria-describedby="uid_10"] {
+    color: var(--text-normal);
+    caret-color: var(--text-normal);
 }
 
 /* Text area box */
@@ -307,190 +301,146 @@
     margin-bottom: -24px;
 }
 .textArea-2CLwUE {
-    background-color: transparent;
-    resize: none;
-    border: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.375rem;
-    width: 100%;
-    height: 44px;
-    min-height: 44px;
-    color: rgb(000 000 000 / 100%);
-    padding-left: 0;
-    padding-right: 10px;
+    color: var(--brand-experiment-200);
 }
 .channelTextArea-1VQBuV {
-    position: relative;
-    width: 100%;
-    text-indent: 0;
     border-radius: 0px;
-    background-image: linear-gradient(90deg, rgb(255 000 000 / 100%), rgb(255 000 000 / 00%));
+    background-image: linear-gradient(90deg, var(--text-normal), var(--brand-experiment-100));
 }
+.editor-H2NA06 {
+    color: var(--brand-experiment-200);
+    caret-color: var(--brand-experiment-200);
+}
+
+/* Emote picker button */
 .sprite-2lxwfc {
-    background-image: url(https://cdn.discordapp.com/attachments/1008215120285012019/1008216460092506112/Phoxy.png);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    width: 22px;
-    height: 22px;
-    display: block;
-    color: red;
+    background-image: url(https://cdn.discordapp.com/attachments/1008215120285012019/1008216460092506112/Phoxy.png); 
+}
+
+/* Attach button */
+.attachButtonPlus-3IYelE {
+    fill: var(--brand-experiment-200);
+}
+
+/* Reply bar */
+.attachedBars-2BCP3l {
+    border-radius: 0px;
+}
+.clipContainer-31nYlH {
+    padding-top: 0px;
+    margin-top: -10px;
 }
 .replyBar-1oi75v {
     border-radius: 0px;
 }
-.divider-2rZFJK {
-    padding-top: 10px;
-}
-.clipContainer-31nYlH {
-    overflow: hidden;
-    padding-top: 0px;
-    margin-top: -10px;
-    border-radius: 0px;
-}
-.attachedBars-2BCP3l {
-    border-radius: 0px;
-}
-.markup-eYLPri {
-    font-size: 1.0rem;
-    line-height: 1.375rem;
-    white-space: pre-wrap;
-    white-space: break-spaces;
-    word-wrap: break-word;
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    -ms-user-select: text;
-    user-select: text;    
-    font-weight: 400;
-}
-.editor-H2NA06 {
-    color: rgb(000 000 000 / 100%);
-    caret-color: rgb(000 000 000 / 100%);
-    text-align: left;
-    word-break: break-word;
-    white-space: break-spaces!important;
-}
-.attachButtonPlus-3IYelE {
-    fill: rgb(000 000 000 / 100%);
-}
-.markup-eYLPri a {
-    color: var(--text-link);
-    word-break: break-word;
-    text-decoration: none;
-    cursor: pointer;
-    text-shadow: 0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
-}
-.colorLink-12GX9V {
-    color: var(--text-link);
-    text-shadow: 0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
-    content: 'Hello';
-}
+
+/* Reply @*/
 .mentionIcon-7MlVnE {
     width: 0px;
     height: 0px;
     margin-right: 4px;
 }
+
+/* Typing indicator */
 .base-3bcbY3 {
-    top: -20px;
+    top: -24px;
 }
 
-/* Bio text box */
-.editor-H2NA06[aria-describedby="uid_10"]  {
-    color: rgb(255 000 000 / 100%);
-    caret-color: rgb(255 000 000 / 100%);
+/* Unread Message Divider */
+.isUnread-3Lojb- {
+    padding-top: 10px;
 }
 
-/* Chat Bubbles */
+/* Links */
+.markup-eYLPri a {
+    text-shadow: var(--slight-glow);
+}
+.colorLink-12GX9V {
+    color: var(--text-link);
+    text-shadow: var(--slight-glow);
+    content: 'Hello';
+}
+
+
+
+
+ /* Chat Bubbles */
+
+
+
+
+/* Chat messages */
 #app-mount .message-2CShn3 .contents-2MsGLg .messageContent-2t3eCI {
     margin-left: -20px;
-}
-#app-mount .message-2CShn3 .avatar-2e8lTP {
-    left: 0px;
-    top: 0px;
-}
-#app-mount .contents-2MsGLg .messageContent-2t3eCI {
-    background-color: var(--background-secondary);
+    padding: 2px;
     width: fit-content;
-    padding: 4px;
     border-radius: 0px;
-}
-.executedCommand-14-SNW, .repliedMessage-3Z6XBG, .threadMessageAccessory-2W9mjC {
-    top: -17px;
-    display: flex;
-}
-.cozy-VmLDNB .repliedMessage-3Z6XBG {    
-    justify-content: center;
-}
-.zalgo-26OfGz.cozy-VmLDNB .header-2jRmjb {
-    left: 0px;
-    position: absolute;
-    margin-top: -22px;
+    background-color: var(--background-secondary);
+    background-image: linear-gradient(90deg, var(--background-accent), var(--brand-experiment-100));
+    /* box-shadow: var(--full-secondary-glow); */
 }
 #app-mount .message-2CShn3[data-is-author-self="true"] .contents-2MsGLg .messageContent-2t3eCI {
     margin-left: auto;
     margin-right: 4px;
-    background-image: linear-gradient(90deg, rgb(255 000 000 / 00%), rgb(255 000 000 / 40%));
+    background-image: linear-gradient(90deg, var(--brand-experiment-100), var(--background-accent));
+}
+
+/* Avatars */
+#app-mount .avatar-2e8lTP {
+    left: 0px;
+    margin: 0px;
 }
 #app-mount .message-2CShn3[data-is-author-self="true"] .avatar-2e8lTP {
     left: unset;
     right: 0px;
 }
-.executedCommand-14-SNW[data-is-author-self="true"], .repliedMessage-3Z6XBG[data-is-author-self="true"], .threadMessageAccessory-2W9mjC[data-is-author-self="true"] {
+
+/* Usernames */
+.zalgo-26OfGz.cozy-VmLDNB .header-2jRmjb {
     left: 0px;
-    right: auto;
+    position: absolute;
+    margin-top: -22px;
 }
 .zalgo-26OfGz.cozy-VmLDNB[data-is-author-self="true"] .header-2jRmjb {
     right: 0px;
     left: auto;
 }
-.messageContent-2t3eCI {
-    text-indent: 0px;
-    background-image: linear-gradient(90deg, rgb(255 000 000 / 40%), rgb(255 000 000 / 00%));
-   /* box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 000 / 100%), 0 0 0.8em rgb(255 000 000 / 100%), 0 0 1.0em rgb(255 000 000 / 100%), 0 0 1.2em rgb(255 000 000 / 100%); */
-}
-.message-2CShn3[data-is-author-self="true"], .cozyMessage-1DWF9U[data-is-author-self="true"], .wrapper-30-Nkg[data-is-author-self="true"], .cozy-VmLDNB[data-is-author-self="true"], .zalgo-26OfGz[data-is-author-self="true"]{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+
+/* Content containers */
+.container-2sjPya {
+    margin-left: -20px;
 }
 
-/* Image container */
+/* Image wrapper */
 .imageWrapper-oMkQl4 {
     border-radius: 0px;
-    box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 000 / 100%), 0 0 0.8em rgb(255 000 000 / 100%), 0 0 1.0em rgb(255 000 000 / 100%), 0 0 1.2em rgb(255 000 000 / 100%);   
+    box-shadow: var(--full-secondary-glow);
 }
 
-div[class="mentionButton-3C5YMI"]{
-    color: green;
+/* Replies */
+.executedCommand-14-SNW, .repliedMessage-3Z6XBG, .threadMessageAccessory-2W9mjC {
+    top: -16px;
+    justify-content: center;
 }
-
+.hasReply-2Cr4KE {
+    margin-top: 1.0625rem;
+    margin-bottom: 2.2rem;
+}
+.executedCommand-14-SNW[data-is-author-self="true"], .repliedMessage-3Z6XBG[data-is-author-self="true"], .threadMessageAccessory-2W9mjC[data-is-author-self="true"] {
+    left: 0px;
+    right: auto;
+}
 
 /* Reply Bar "thread" line */
 .repliedMessage-3Z6XBG:before {
     --spine-width: 5px;
-    content: "";
-    display: block;
-    position: absolute;
-    box-sizing: border-box;
-    top: 55%;
-    right: 80%;
-    bottom: 0;
-    left: calc(var(--avatar-size)/2*-1 + var(--gutter)*-1);
-    margin-right: var(--reply-spacing);
-    margin-top: calc(var(--spine-width)*-1/2);
-    margin-left: calc(var(--spine-width)*-1/2);
-    margin-bottom: calc(.125rem - 4px);
-    border-left: var(--spine-width) solid var(--interactive-muted);
-    border-bottom: 0 solid var(--interactive-muted);
-    border-right: 0 solid var(--interactive-muted);
-    border-top: var(--spine-width) solid var(--interactive-muted);
-    border-top-left-radius: 0px;
+    top: 50%;
+    right: 90%;
+    border-radius: 0px;
 }
+
+
+
 
 /* Square PFPs */
 foreignObject {
@@ -509,9 +459,10 @@ foreignObject {
     border-radius: 0;
 }
 
+
 /* Status Indicator*/
 rect[class="pointerEvents-9SZWKj"] {
-    fill: rgb(255 000 255 /100%);
+    fill: var(--status-danger);
 }
 
 /* Voice channel chat preview */
@@ -528,20 +479,20 @@ rect[class="pointerEvents-9SZWKj"] {
 
 /* Video and Screen button */
 .button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
-    background-color: rgb(255 000 255 / 100%);
-    color: rgb(000 000 000 / 100%);
+    background-color: var(--text-link);
+    color: var(--brand-experiment-200);
     padding: 0px;
 }
 .button-1EGGcP{
-    box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
+    box-shadow: var(--full-primary-glow);
 }
 .button-1EGGcP.buttonColor-3bP3fX:hover, .button-1EGGcP .buttonColor-3bP3fX:hover {
     background-color: rgb(200 0 200 / 100%);
 }
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
-    background-color: rgb(255 000 000 / 100%);
-    color: rgb(0 0 0);
-    box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 000 / 100%), 0 0 0.8em rgb(255 000 000 / 100%), 0 0 1.0em rgb(255 000 000 / 100%), 0 0 1.2em rgb(255 000 000 / 100%);
+    background-color: var(--text-normal);
+    color: var(--brand-experiment-200);
+    box-shadow: var(--full-secondary-glow);
 }
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
     background-color: rgb(200 000 000 / 100%);
@@ -549,21 +500,15 @@ rect[class="pointerEvents-9SZWKj"] {
 
 /* All buttons */
 .button-f2h6uQ {
-    position: relative;
     border-radius: 0px;
 }
-
 .lookFilled-yCfaCM.colorGreen-3y-Z79 {
-    color: rgb(000 000 000 / 100%);;
-    background-color: rgb(255 000 000 / 100%);
-    box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 000 / 100%), 0 0 0.8em rgb(255 000 000 / 100%), 0 0 1.0em rgb(255 000 000 / 100%), 0 0 1.2em rgb(255 000 000 / 100%);
+    color: var(--brand-experiment-200);
+    background-color: var(--text-link);
+    box-shadow: var(--full-primary-glow);
 }
 .lookFilled-yCfaCM.colorGreen-3y-Z79:hover {
     background-color: rgb(200 000 000 / 100%);;
-}
-
-.colorBrand-3cPPsm {
-    color: var(--brand-experiment);
 }
 
 /* Call Buttons */
@@ -571,21 +516,21 @@ rect[class="pointerEvents-9SZWKj"] {
     margin: 0 1px;
 }
 .wrapper-3t3Yqv {
-    box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 000 / 100%), 0 0 0.8em rgb(255 000 000 / 100%), 0 0 1.0em rgb(255 000 000 / 100%), 0 0 1.2em rgb(255 000 000 / 100%);
+    box-shadow: var(--full-secondary-glow);
 }
 .colorable-3rVGna.primaryDark-2UJt1G, .colorable-3rVGna.primaryDark-2UJt1G .centerIcon-JYpTUi {
     color: rgb(000 000 000 / 100%);
 }
 .colorable-3rVGna.primaryDark-2UJt1G {
     background: rgb(255 000 000 / 100%);
-    box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 000 / 100%), 0 0 0.8em rgb(255 000 000 / 100%), 0 0 1.0em rgb(255 000 000 / 100%), 0 0 1.2em rgb(255 000 000 / 100%);
+    box-shadow: var(--full-secondary-glow);
 }
 .colorable-3rVGna.white-11auuQ, .colorable-3rVGna.white-11auuQ .centerIcon-JYpTUi {
     color: rgb(000 000 000 / 100%);
 }
 .colorable-3rVGna.white-11auuQ {
     background: rgb(255 255 255 / 100%);
-    box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 000 / 100%), 0 0 0.8em rgb(255 000 000 / 100%), 0 0 1.0em rgb(255 000 000 / 100%), 0 0 1.2em rgb(255 000 000 / 100%);
+    box-shadow: var(--full-secondary-glow);
 }
 .colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, .colorable-3rVGna.primaryDark-2UJt1G:hover {
     background: rgb(255 255 255 / 100%);
@@ -595,30 +540,85 @@ rect[class="pointerEvents-9SZWKj"] {
 }
 .colorable-3rVGna.red-3T8maV {
     background: rgb(255 000 255 / 100%);
-    box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
+    box-shadow: var(--full-primary-glow);
 }
 
 /* User Speaking Highlight*/
 .avatarSpeaking-2pCGrZ {
-    box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
+    box-shadow: var(--full-primary-glow);
 }
 .border-2Vy6FN.speaking-7QZEkv {
-	  box-shadow: inset 0 0 0.1em rgb(255 255 255 / 100%), inset 0 0 0.2em rgb(255 255 255 / 100%), inset 0 0 0.3em rgb(255 255 255 / 100%), inset 0 0 0.4em rgb(255 125 255 / 100%), inset 0 0 0.6em rgb(255 000 255 / 100%), inset 0 0 0.8em rgb(255 000 255 / 100%), inset 0 0 1.0em rgb(255 000 255 / 100%), inset 0 0 1.2em rgb(255 000 255 / 100%);
+	box-shadow: var(--inset-primary-glow);
 }
 .avatarSpeaking-33RRJU {
-    box-shadow: inset 0 0 0.1em rgb(255 255 255 / 100%), inset 0 0 0.2em rgb(255 255 255 / 100%), inset 0 0 0.3em rgb(255 255 255 / 100%), inset 0 0 0.4em rgb(255 125 255 / 100%), inset 0 0 0.6em rgb(255 000 255 / 100%), inset 0 0 0.8em rgb(255 000 255 / 100%), inset 0 0 1.0em rgb(255 000 255 / 100%), inset 0 0 1.2em rgb(255 000 255 / 100%);
+    box-shadow: var(--inset-primary-glow);
     border-radius: 0%;
 }
 
 /* User Speaking Highlight in private call */
 .border-2BJQjd.speaking-3RWJBr {
-    
-    box-shadow: 0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
+    box-shadow: var(--full-primary-glow);
 }
 
 /* Voice chat background and gradient */
 .gradientContainer-phMG8d {
     height: 160px;
-    background-color: rgb(000 000 000 / 050%);
+    background-color: var(--background-floating);
     background-image: none;
+}
+
+/* Server list at top */
+.wrapper-1_HaEi {
+    flex-direction: row;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.tree-3agP2X {
+    width: 100%;
+    height: fit-content;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.guilds-2JjMmN {
+    width: auto;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.container-1eFtFS {
+    display: flex;
+    flex-direction: column;
+}
+
+.platform-osx .scroller-3X7KbA, .platform-win .scroller-3X7KbA {
+    padding-top: 8px;
+    padding-bottom: 0px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.listItem-3SmSlK {
+    width: 64px;
+    height: 48px;
+}
+
+div[aria-label="Servers"] {
+    display: flex;
+    flex-direction: row;
+    scroll-padding-right: 8px;
+}
+
+.unreadMentionsBar-ZXXoOH {
+    height: 48px;
+    width: 24px;
+    border-radius: 0px;
+}
+
+.unreadMentionsIndicatorBottom-3RJMnQ, .unreadMentionsIndicatorTop-2bTgUU {
+    height: 64px;
 }
