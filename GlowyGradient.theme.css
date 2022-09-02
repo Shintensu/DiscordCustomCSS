@@ -295,6 +295,10 @@
 }
 
 /* Text area box */
+.form-3gdLxP {
+     padding: 0px;
+}
+
 .channelTextArea-1VQBuV {
     border-radius: 0px;
     background-image: linear-gradient(90deg, var(--text-normal), var(--brand-experiment-100));
