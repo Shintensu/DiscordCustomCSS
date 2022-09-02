@@ -29,7 +29,6 @@ Pre-requisites: [BDFDB](https://betterdiscord.app/plugin/BDFDB) must be enabled 
 ## KNOWN ISSUES
 - Replies appear incorrectly.
 - The Font is broken.
-- Multi-line messages shifts the UI upwards by a bit, making it harder to see the top bar.
 - The theme doesnt automatically update in BetterDiscord.
 ## Previews
 ##### Cursor not included.
