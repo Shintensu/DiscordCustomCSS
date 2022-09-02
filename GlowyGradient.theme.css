@@ -295,17 +295,14 @@
 }
 
 /* Text area box */
-.form-3gdLxP {
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: -24px;
-}
-.textArea-2CLwUE {
-    color: var(--brand-experiment-200);
-}
 .channelTextArea-1VQBuV {
     border-radius: 0px;
     background-image: linear-gradient(90deg, var(--text-normal), var(--brand-experiment-100));
+}
+.channelTextArea-1FufC0 {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .editor-H2NA06 {
     color: var(--brand-experiment-200);
@@ -361,6 +358,27 @@
     content: 'Hello';
 }
 
+/* Replies */
+.executedCommand-14-SNW, .repliedMessage-3Z6XBG, .threadMessageAccessory-2W9mjC {
+    top: -16px;
+    justify-content: center;
+}
+.hasReply-2Cr4KE {
+    margin-top: 1.0625rem;
+    margin-bottom: 2.2rem;
+}
+.executedCommand-14-SNW[data-is-author-self="true"], .repliedMessage-3Z6XBG[data-is-author-self="true"], .threadMessageAccessory-2W9mjC[data-is-author-self="true"] {
+    left: 0px;
+    right: auto;
+}
+/* Reply Bar "thread" line */
+.repliedMessage-3Z6XBG:before {
+    --spine-width: 5px;
+    top: 50%;
+    right: 90%;
+    border-radius: 0px;
+}
+
 
 
 
@@ -368,7 +386,12 @@
 
 
 
-
+ /* Images */
+.imageWrapper-oMkQl4 {
+    margin-left: -20px;
+    border-radius: 0px;
+    box-shadow: var(--full-secondary-glow);
+}
 /* Chat messages */
 #app-mount .message-2CShn3 .contents-2MsGLg .messageContent-2t3eCI {
     margin-left: -20px;
@@ -385,12 +408,28 @@
     background-image: linear-gradient(90deg, var(--brand-experiment-100), var(--background-accent));
 }
 
+/* Search Results */
+#app-mount .wrapper-30-Nkg[data-is-author-self="true"][id*="search-result"]  .messageContent-2t3eCI {
+    margin-left:  -48px;
+    padding-left: 0px;
+    width: 100%;
+}
+.message-24k8JL {
+    padding: 16px 0;
+}
+
+.searchResult-O9NDji {
+    border-radius: 0px;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+
 /* Avatars */
 #app-mount .avatar-2e8lTP {
     left: 0px;
     margin: 0px;
 }
-#app-mount .message-2CShn3[data-is-author-self="true"] .avatar-2e8lTP {
+#app-mount .wrapper-30-Nkg[data-is-author-self="true"] .avatar-2e8lTP {
     left: unset;
     right: 0px;
 }
@@ -406,46 +445,15 @@
     left: auto;
 }
 
-/* Content containers */
-.container-2sjPya {
-    margin-left: -20px;
-}
-
-/* Image wrapper */
-.imageWrapper-oMkQl4 {
-    border-radius: 0px;
-    box-shadow: var(--full-secondary-glow);
-}
-
-/* Replies */
-.executedCommand-14-SNW, .repliedMessage-3Z6XBG, .threadMessageAccessory-2W9mjC {
-    top: -16px;
-    justify-content: center;
-}
-.hasReply-2Cr4KE {
-    margin-top: 1.0625rem;
-    margin-bottom: 2.2rem;
-}
-.executedCommand-14-SNW[data-is-author-self="true"], .repliedMessage-3Z6XBG[data-is-author-self="true"], .threadMessageAccessory-2W9mjC[data-is-author-self="true"] {
-    left: 0px;
-    right: auto;
-}
-
-/* Reply Bar "thread" line */
-.repliedMessage-3Z6XBG:before {
-    --spine-width: 5px;
-    top: 50%;
-    right: 90%;
-    border-radius: 0px;
-}
-
-
-
-
 /* Square PFPs */
+
+
+
+/* SVG Mask */
 foreignObject {
     mask: url();
 }
+
 .wrapper-1VLyxH {
     border-radius: 0%;
 }
@@ -456,8 +464,9 @@ foreignObject {
     border-radius: 0%;
 }
 .wrapperSimple-Js2rIO {
-    border-radius: 0;
+    border-radius: 0%;
 }
+
 
 
 /* Status Indicator*/
@@ -567,6 +576,10 @@ rect[class="pointerEvents-9SZWKj"] {
     background-image: none;
 }
 
+
+
+
+
 /* Server list at top */
 .wrapper-1_HaEi {
     flex-direction: row;
@@ -598,8 +611,8 @@ rect[class="pointerEvents-9SZWKj"] {
     height: 64px;
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
 }
 
 .listItem-3SmSlK {
@@ -621,4 +634,18 @@ div[aria-label="Servers"] {
 
 .unreadMentionsIndicatorBottom-3RJMnQ, .unreadMentionsIndicatorTop-2bTgUU {
     height: 64px;
+}
+
+/* Seperator thingy? made it 0px so it doesnt ruin the layout */
+.guildSeparator-a4uisj {
+    width: 0px;
+}
+
+/* Server folder fix */
+div[class="wrapper-38slSD expanded"]{
+    display: flex;
+    width: fit-content;
+}
+ul[id*="folder-items"]{
+    display: flex;
 }
