@@ -2,7 +2,8 @@
 A collection of CSS files for discord customization
 Created by [Phoxy](https://github.com/Bass-PHOX) and [Shintensu](https://github.com/Shintensu)
 
-GlowyGradient - A red and black/transparent theme with some gradients, neon effects, square guild and profile pictures, as well as messenger-like text bubbles.  
+GlowyGradient - A highly customizable gradients, neon effects, square guild and profile pictures, as well as messenger-like text bubbles. 
+
 
 Special thanks to:  
 [Naca](https://twitter.com/nacasatu) for helping with testing and troubleshooting.  
@@ -32,5 +33,7 @@ Pre-requisites: [BDFDB](https://betterdiscord.app/plugin/BDFDB) must be enabled 
 - The theme doesnt automatically update in BetterDiscord.
 ## Previews
 ##### Cursor not included.
-![Chat Preview](https://user-images.githubusercontent.com/87764384/185085918-ab7e8c46-2d74-4afd-a025-195a36ef9345.jpg)
-![Settings Preview](https://user-images.githubusercontent.com/87764384/185081387-386b5ba5-bdae-4d21-9b5d-6663d7edb902.jpg)
+
+![Chat Preview](https://user-images.githubusercontent.com/87764384/188480836-3c205731-480e-4815-8aa1-330b936822e4.png)
+![Settings Preview](https://user-images.githubusercontent.com/87764384/188480875-62509fbf-cf7d-4d91-ac51-6467c4fb765c.png)
+
