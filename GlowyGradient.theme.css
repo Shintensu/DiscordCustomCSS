@@ -17,14 +17,28 @@
 
 :root 
 {
-    font-family:      Andy;
-    --font-primary:   Andy;
-    --font-display:   Andy;
-    --font-headline:  Andy;
+    --hue-primary:                                               330deg;
+    --hue-secondary:                                             275deg;
+    --hue-tertiary:                                              000deg;
+
+    --slight-glow:                                               0 0 0.2em hsl(var(--hue-secondary),100%,050%,100%), 0 0 0.4em hsl(var(--hue-secondary),100%,050%,100%);
+    --slight-secondary-glow:                                     0 0 0.2em hsl(var(--hue-primary),100%,050%,100%),   0 0 0.4em hsl(var(--hue-primary),100%,050%,100%);
+    --full-primary-glow:                                         0 0 0.1em hsl(var(--hue-secondary),100%,100%,100%), 0 0 0.2em hsl(var(--hue-secondary),100%,100%,100%), 0 0 0.3em hsl(var(--hue-secondary),100%,100%,100%), 0 0 0.4em hsl(var(--hue-secondary),100%,075%,100%),0 0 0.6em hsl(var(--hue-secondary),100%,050%,100%), 0 0 0.8em hsl(var(--hue-secondary),100%,050%,100%), 0 0 1.0em hsl(var(--hue-secondary),100%,050%,100%), 0 0 1.2em hsl(var(--hue-secondary),100%,050%,100%);
+    --full-secondary-glow:                                       0 0 0.1em hsl(var(--hue-primary),100%,100%,100%), 0 0 0.2em hsl(var(--hue-primary),100%,100%,100%), 0 0 0.3em hsl(var(--hue-primary),100%,100%,100%), 0 0 0.4em hsl(var(--hue-primary),100%,075%,100%),0 0 0.6em hsl(var(--hue-primary),100%,050%,100%), 0 0 0.8em hsl(var(--hue-primary),100%,050%,100%), 0 0 1.0em hsl(var(--hue-primary),100%,050%,100%), 0 0 1.2em hsl(var(--hue-primary),100%,050%,100%);
+    --inset-primary-glow:                                        inset 0 0 0.1em hsl(var(--hue-secondary),100%,100%,100%), inset 0 0 0.2em hsl(var(--hue-secondary),100%,100%,100%), inset 0 0 0.3em hsl(var(--hue-secondary),100%,100%,100%), inset 0 0 0.4em hsl(var(--hue-secondary),100%,075%,100%), inset 0 0 0.6em hsl(var(--hue-secondary),100%,050%,100%), inset 0 0 0.8em hsl(var(--hue-secondary),100%,050%,100%), inset 0 0 1.0em hsl(var(--hue-secondary),100%,050%,100%), inset 0 0 1.2em hsl(var(--hue-secondary),100%,050%,100%);
+
+    --linear-gradient-horizontal:                                linear-gradient(90deg, hsl(var(--hue-primary),080%,030%,100%), hsl(var(--hue-secondary),080%,030%,050%));
+    --linear-gradient-horizontal-inverted:                       linear-gradient(90deg, hsl(var(--hue-secondary),080%,030%,100%), hsl(var(--hue-primary),080%,030%,050%));
+
+
+    font-family:                                                 Andy;
+    --font-primary:                                              Andy;
+    --font-display:                                              Andy;
+    --font-headline:                                             Andy;
       
-    background-image: url(https://cdn.discordapp.com/attachments/966394790100992001/1008471972549767258/Redcloudsbehindglass.png);
-    opacity: 1;
-    background-size: cover;
+    background-image:                                            url(https://cdn.discordapp.com/attachments/1003429432314306600/1016145989029072956/PinkUmbraveonFull.png);
+    opacity:                                                     1;
+    background-size:                                             cover;
 }
 
 
@@ -53,60 +67,58 @@
   
   
     --focus-primary:                                             rgb(000 000 000 / 050%); /* ??? */
-  
-  
-  
-    --header-primary:                                            rgb(255 000 000 / 100%); /* Main Header, Names, Server Names and Selector */
-    --header-secondary:                                          rgb(255 050 050 / 100%); /* Secondary Header, Status, User Detail header */
-    --text-normal:                                               rgb(255 000 000 / 100%); /* General Text Color, Clyde logo and Letters for servers without picture */
-    --text-muted:                                                rgb(255 100 100 / 100%); /* Soft/Muted text */
-    --text-link:                                                 rgb(255 000 255 / 100%); /* Links */
-    --text-link-low-saturation:                                  rgb(130 130 130 / 050%); /* Recently used links */
-    --text-positive:                                             rgb(255 000 000 / 100%); /* Voice connected */
-    --text-warning:                                              rgb(000 000 000 / 000%);
-    --text-danger:                                               rgb(000 000 000 / 000%);
-    --text-brand:                                                rgb(255 000 000 / 100%); /* Send Message Button */
-    --interactive-normal:                                        rgb(255 000 000 / 100%); /* Buttons */
-    --interactive-hover:                                         rgb(255 255 255 / 100%); /* Button hover highlight */
-    --interactive-active:                                        rgb(255 200 200 / 100%); /* Button select highlight */
-    --interactive-muted:                                         rgb(255 100 100 / 100%); /* Button soft/inactive */
-    --background-primary:                                        rgb(000 000 000 / 010%); /* Main Chat window */
-    --background-secondary:                                      rgb(000 000 000 / 020%); /* Sidebar */
-    --background-secondary-alt:                                  rgb(000 000 000 / 030%); /* Account bar */
-    --background-tertiary:                                       rgb(000 000 000 / 015%); /* Overall background */
-    --background-accent:                                         rgb(255 000 000 / 040%); 
-    --background-floating:                                       rgb(000 000 000 / 050%); /* Float menu background */
-    --background-nested-floating:                                rgb(000 000 000 / 000%); 
-    --background-mobile-primary:                                 rgb(000 000 000 / 000%);
-    --background-mobile-secondary:                               rgb(000 000 000 / 000%);
-    --chat-background:                                           rgb(000 000 000 / 000%);
-    --chat-border:                                               rgb(000 000 000 / 000%);
-    --chat-input-container-background:                           rgb(000 000 000 / 000%);
-    --background-modifier-hover:                                 rgb(000 000 000 / 050%); /* Channel hover Highlight */
-    --background-modifier-active:                                rgb(000 000 000 / 050%); /* Channel switch Highlight */
-    --background-modifier-selected:                              rgb(000 000 000 / 050%); /* Channel select Highlight */
-    --background-modifier-accent:                                rgb(000 000 000 / 000%);
-    --info-positive-background:                                  rgb(000 000 000 / 000%);
-    --info-positive-foreground:                                  rgb(000 000 000 / 000%);
-    --info-positive-text:                                        rgb(000 000 000 / 000%);
-    --info-warning-background:                                   rgb(000 000 000 / 000%);
-    --info-warning-foreground:                                   rgb(000 000 000 / 000%);
-    --info-warning-text:                                         rgb(000 000 000 / 000%);
-    --info-danger-background:                                    rgb(000 000 000 / 000%);
-    --info-danger-foreground:                                    rgb(000 000 000 / 000%);
-    --info-danger-text:                                          rgb(000 000 000 / 000%);
-    --info-help-background:                                      rgb(000 000 000 / 000%);
-    --info-help-foreground:                                      rgb(000 000 000 / 000%);
-    --info-help-text:                                            rgb(000 000 000 / 000%);
-    --status-positive-background:                                rgb(000 000 000 / 000%);
-    --status-positive-text:                                      rgb(000 000 000 / 000%);
-    --status-warning-background:                                 rgb(000 000 000 / 000%);
-    --status-warning-text:                                       rgb(000 000 000 / 000%);
-    --status-danger-background:                                  rgb(000 000 000 / 000%);
-    --status-danger-text:                                        rgb(000 000 000 / 000%);
-    --status-danger:                                             rgb(255 000 255 / 100%); /* Pings, new message notifications, warnings */
-    --status-positive:                                           rgb(000 000 000 / 000%);
-    --status-warning:                                            rgb(000 000 000 / 000%);
+ 
+    --header-primary:                                            hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*100%),090%,100%); /* Main Header, Names, Server Names and Selector */
+    --header-secondary:                                          hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*100%),080%,100%); /* Secondary Header, Status, User Detail header */
+    --text-normal:                                               hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*100%),070%,100%); /* General Text Color, Clyde logo and Letters for servers without picture */
+    --text-muted:                                                hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*100%),080%,100%); /* Soft/Muted text */
+    --text-link:                                                 hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*100%),048%,100%); /* Links */
+    --text-link-low-saturation:                                  hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*100%),053%,100%); /* Recently used links */
+    --text-positive:                                             hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*020%),052%,100%); /* Voice connected */
+    --text-warning:                                              hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*096%),054%,100%);
+    --text-danger:                                               hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*082%),074%,100%);
+    --text-brand:                                                hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*086%),078%,100%); /* Send Message Button */
+    --interactive-normal:                                        hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*100%),074%,100%); /* Buttons */
+    --interactive-hover:                                         hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*050%),087%,100%); /* Button hover highlight */
+    --interactive-active:                                        hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*000%),100%,100%); /* Button select highlight */
+    --interactive-muted:                                         hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*050%),034%,100%); /* Button soft/inactive */
+    --background-primary:                                        hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*008%),000%,010%); /* Main Chat window */
+    --background-secondary:                                      hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*007%),000%,020%); /* Sidebar */
+    --background-secondary-alt:                                  hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*007%),000%,050%); /* Account bar */
+    --background-tertiary:                                       hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*007%),000%,030%); /* Overall background */
+    --background-accent:                                         hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*008%),000%,040%); 
+    --background-floating:                                       hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*008%),000%,050%); /* Float menu background */
+    --background-nested-floating:                                hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*007%),000%,100%); 
+    --background-mobile-primary:                                 hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*008%),000%,100%);
+    --background-mobile-secondary:                               hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*007%),000%,100%);
+    --chat-background:                                           hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*008%),000%,100%);
+    --chat-border:                                               hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*007%),000%,100%);
+    --chat-input-container-background:                           hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*008%),000%,100%);
+    --background-modifier-hover:                                 hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*008%),034%,040%); /* Channel hover Highlight */
+    --background-modifier-active:                                hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*008%),034%,050%); /* Channel switch Highlight */
+    --background-modifier-selected:                              hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*008%),034%,060%); /* Channel select Highlight */
+    --background-modifier-accent:                                hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*008%),034%,050%);
+    --info-positive-background:                                  hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*047%),044%,010%);
+    --info-positive-foreground:                                  hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*047%),044%,100%);
+    --info-positive-text:                                        hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*000%),100%,100%);
+    --info-warning-background:                                   hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*096%),054%,010%);
+    --info-warning-foreground:                                   hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*096%),054%,100%);
+    --info-warning-text:                                         hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*000%),100%,100%);
+    --info-danger-background:                                    hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*083%),059%,010%);
+    --info-danger-foreground:                                    hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*083%),059%,100%);
+    --info-danger-text:                                          hsl(var(--hue-primary),  calc(var(--saturation-factor, 1)*000%),100%,100%);
+    --info-help-background:                                      hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*100%),048%,010%);
+    --info-help-foreground:                                      hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*100%),048%,100%);
+    --info-help-text:                                            hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*000%),100%,100%);
+    --status-positive-background:                                hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*047%),038%,100%);
+    --status-positive-text:                                      hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*000%),100%,100%);
+    --status-warning-background:                                 hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*096%),054%,100%);
+    --status-warning-text:                                       hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*000%),000%,100%);
+    --status-danger-background:                                  hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*083%),059%,100%);
+    --status-danger-text:                                        hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*000%),100%,100%);
+    --status-danger:                                             hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*083%),059%,100%); /* Pings, new message notifications, warnings */
+    --status-positive:                                           hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*047%),044%,100%);
+    --status-warning:                                            hsl(var(--hue-secondary),calc(var(--saturation-factor, 1)*096%),054%,100%);
     --button-danger-background:                                  rgb(000 000 000 / 000%);
     --button-danger-background-hover:                            rgb(000 000 000 / 000%);
     --button-danger-background-active:                           rgb(000 000 000 / 000%);
@@ -168,19 +180,19 @@
     --logo-primary:                                              rgb(000 000 000 / 000%);
     --control-brand-foreground:                                  rgb(000 000 000 / 000%);
     --control-brand-foreground-new:                              rgb(000 000 000 / 000%);
-    --background-mentioned:                                      rgb(255 000 000 / 010%); /* Mention highlight */
-    --background-mentioned-hover:                                rgb(050 000 000 / 030%); /* Mention highlight on hover*/
-    --background-message-hover:                                  rgb(000 000 000 / 030%); /* Message highlight on hover*/
+    --background-mentioned:                                      hsla(var(--hue-primary),  calc(var(--saturation-factor, 1)*096%),054%,010%); /* Mention highlight */
+    --background-mentioned-hover:                                hsla(var(--hue-primary),  calc(var(--saturation-factor, 1)*096%),054%,008%); /* Mention highlight on hover*/
+    --background-message-hover:                                  hsla(var(--hue-primary),  calc(var(--saturation-factor, 1)*011%),002%,007%); /* Message highlight on hover*/
     --background-message-automod:                                rgb(000 000 000 / 000%);
     --background-message-automod-hover:                          rgb(000 000 000 / 000%);
     --background-message-highlight:                              rgb(000 000 000 / 000%);
     --background-message-highlight-hover:                        rgb(000 000 000 / 000%);
-    --channels-default:                                          rgb(255 000 000 / 100%); /* Channel and user list */
-    --channel-icon:                                              rgb(255 000 000 / 100%); /* Channel symbol */
-    --channel-text-area-placeholder:                             rgb(000 000 000 / 100%); /* Message box text */
-    --channeltextarea-background:                                rgb(050 000 000 / 000%); /* Message box background */
+    --channels-default:                                          hsla(var(--hue-primary),  calc(var(--saturation-factor, 1)*080%),060%,100%); /* Channel and user list */
+    --channel-icon:                                              hsla(var(--hue-primary),  calc(var(--saturation-factor, 1)*081%),058%,100%); /* Channel symbol */
+    --channel-text-area-placeholder:                             hsla(var(--hue-primary),  calc(var(--saturation-factor, 1)*082%),047%,100%); /* Message box text */
+    --channeltextarea-background:                                hsla(var(--hue-primary),  calc(var(--saturation-factor, 1)*085%),027%,000%); /* Message box background */
     --activity-card-background:                                  rgb(000 000 000 / 000%);
-    --textbox-markdown-syntax:                                   rgb(255 000 000 / 100%); /* Message box markdown */
+    --textbox-markdown-syntax:                                   hsla(var(--hue-primary),  calc(var(--saturation-factor, 1)*004%),058%,100%); /* Message box markdown */
     --spoiler-revealed-background:                               rgb(000 000 000 / 000%);
     --spoiler-hidden-background:                                 rgb(000 000 000 / 000%);
     --android-navigation-bar-background:                         rgb(000 000 000 / 000%);
@@ -195,9 +207,8 @@
     --deprecated-text-input-border-hover:                        rgb(000 000 000 / 000%);
     --deprecated-text-input-border-disabled:                     rgb(000 000 000 / 000%);
     --deprecated-text-input-prefix:                              rgb(000 000 000 / 000%);
-  
-  	
-  
+
+
   
     --guild-header-text-shadow:                                  0 1px 1px hsla(0,calc(var(--saturation-factor, 1)*0%),0%,0.4);
     --elevation-stroke:                                          0 0 0 1px hsla(240,calc(var(--saturation-factor, 1)*11.1%),1.8%,0.15);
@@ -205,8 +216,8 @@
     --elevation-medium:                                          0 4px 4px hsla(0,calc(var(--saturation-factor, 1)*0%),0%,0.16);
     --elevation-high:                                            0 8px 16px hsla(0,calc(var(--saturation-factor, 1)*0%),0%,0.24);
   
-    --brightness: calc(1.5 - var(--saturation-factor, 1)*0.5);
-    --contrast: var(--saturation-factor,1); 
+    --brightness:                                                calc(1.5 - var(--saturation-factor, 1)*0.5);
+    --contrast:                                                  var(--saturation-factor,1); 
 }
 
 .theme-dark .container-2cd8Mz {
@@ -217,16 +228,16 @@
     --brand-experiment-100:                                      rgb(000 000 000 / 000%);
     --brand-experiment-130:                                      rgb(000 000 000 / 000%);
     --brand-experiment-160:                                      rgb(000 000 000 / 000%);
-    --brand-experiment-200:                                      rgb(000 000 000 / 100%); /* Mention and bio Text */
+    --brand-experiment-200:                                      hsla(var(--hue-primary),  calc(var(--saturation-factor, 1)*083%),093%,100%); /* Mention and bio Text */ 
     --brand-experiment-230:                                      rgb(000 000 000 / 000%);
     --brand-experiment-260:                                      rgb(000 000 000 / 000%);
     --brand-experiment-300:                                      rgb(000 000 000 / 000%);
     --brand-experiment-330:                                      rgb(000 000 000 / 000%);
     --brand-experiment-360:                                      rgb(000 000 000 / 000%);
     --brand-experiment-400:                                      rgb(000 000 000 / 000%);
-    --brand-experiment-430:                                      rgb(255 255 255 / 100%); /* Send Message Button fade out */
+    --brand-experiment-430:                                      hsla(var(--hue-primary),  calc(var(--saturation-factor, 1)*086%),070%,100%); /* Send Message Button fade out */
     --brand-experiment-460:                                      rgb(000 000 000 / 000%);
-    --brand-experiment:                                          rgb(255 000 255 / 100%); /* Highlight bar for new messages and clyde icon, as well as some buttons */
+    --brand-experiment:                                          hsla(var(--hue-primary),  calc(var(--saturation-factor, 1)*086%),065%,100%); /* Highlight bar for new messages and clyde icon, as well as some buttons */
     --brand-experiment-500:                                      rgb(000 000 000 / 000%);
     --brand-experiment-530:                                      rgb(000 000 000 / 000%);
     --brand-experiment-560:                                      rgb(000 000 000 / 000%);
@@ -245,7 +256,7 @@
     --brand-experiment-15a:                                      rgb(000 000 000 / 000%);
     --brand-experiment-20a:                                      rgb(000 000 000 / 000%);
     --brand-experiment-25a:                                      rgb(000 000 000 / 000%);
-    --brand-experiment-30a:                                      rgb(255 000 255 / 100%); /* Mention Background */
+    --brand-experiment-30a:                                      hsla(var(--hue-primary),  calc(var(--saturation-factor, 1)*086%),065%,030%); /* Mention Background */ 
     --brand-experiment-35a:                                      rgb(000 000 000 / 000%);
     --brand-experiment-40a:                                      rgb(000 000 000 / 000%);
     --brand-experiment-45a:                                      rgb(000 000 000 / 000%);
@@ -260,10 +271,7 @@
     --brand-experiment-90a:                                      rgb(000 000 000 / 000%);
     --brand-experiment-95a:                                      rgb(000 000 000 / 000%);
 
-    --slight-glow:                                               0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
-    --full-primary-glow:                                         0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 255 / 100%), 0 0 0.8em rgb(255 000 255 / 100%), 0 0 1.0em rgb(255 000 255 / 100%), 0 0 1.2em rgb(255 000 255 / 100%);
-    --full-secondary-glow:                                       0 0 0.1em rgb(255 255 255 / 100%), 0 0 0.2em rgb(255 255 255 / 100%), 0 0 0.3em rgb(255 255 255 / 100%), 0 0 0.4em rgb(255 125 255 / 100%),0 0 0.6em rgb(255 000 000 / 100%), 0 0 0.8em rgb(255 000 000 / 100%), 0 0 1.0em rgb(255 000 000 / 100%), 0 0 1.2em rgb(255 000 000 / 100%);
-    --inset-primary-glow:                                        inset 0 0 0.1em rgb(255 255 255 / 100%), inset 0 0 0.2em rgb(255 255 255 / 100%), inset 0 0 0.3em rgb(255 255 255 / 100%), inset 0 0 0.4em rgb(255 125 255 / 100%), inset 0 0 0.6em rgb(255 000 255 / 100%), inset 0 0 0.8em rgb(255 000 255 / 100%), inset 0 0 1.0em rgb(255 000 255 / 100%), inset 0 0 1.2em rgb(255 000 255 / 100%)
+
 }                                                                 
 
 
@@ -279,7 +287,7 @@
 
 /* Code block text*/
 .codeBlockText-28BOxV, .codeLine-2C-9aH {
-    color: var(--brand-experiment-200);
+    color: var(--background-floating);
 }
 
 /* Voice channel chat */
@@ -288,29 +296,33 @@
     background: var(--background-secondary-alt);
 }
 
-/* Bio text box */
-.editor-H2NA06[aria-describedby="uid_10"] {
-    color: var(--text-normal);
-    caret-color: var(--text-normal);
-}
-
 /* Text area box */
 .form-3gdLxP {
      padding: 0px;
 }
-
 .channelTextArea-1VQBuV {
     border-radius: 0px;
-    background-image: linear-gradient(90deg, var(--text-normal), var(--brand-experiment-100));
+    background-image: var(--linear-gradient-horizontal);
 }
 .channelTextArea-1FufC0 {
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.editor-H2NA06 {
-    color: var(--brand-experiment-200);
-    caret-color: var(--brand-experiment-200);
+
+/* Jump to present bar */
+/*
+.jumpToPresentBar-1cEnH0 {
+    width: 100%;
+    left: 0px;
+    padding: 0px;
+    margin-bottom: 18px;
+    border-radius: 0;
+}
+*/
+/* Typing indicator */
+.base-3bcbY3 {
+    top: -24px;
 }
 
 /* Emote picker button */
@@ -320,7 +332,7 @@
 
 /* Attach button */
 .attachButtonPlus-3IYelE {
-    fill: var(--brand-experiment-200);
+    fill:  hsl(var(--hue-primary),000%,000%,100%);
 }
 
 /* Reply bar */
@@ -342,11 +354,6 @@
     margin-right: 4px;
 }
 
-/* Typing indicator */
-.base-3bcbY3 {
-    top: -24px;
-}
-
 /* Unread Message Divider */
 .isUnread-3Lojb- {
     padding-top: 10px;
@@ -357,7 +364,7 @@
     text-shadow: var(--slight-glow);
 }
 .colorLink-12GX9V {
-    color: var(--text-link);
+    color: hsl(var(--hue-secondary),100%,050%,100%);
     text-shadow: var(--slight-glow);
     content: 'Hello';
 }
@@ -392,10 +399,25 @@
 
  /* Images */
 .imageWrapper-oMkQl4 {
-    margin-left: -20px;
+    margin-left: 0px;
     border-radius: 0px;
     box-shadow: var(--full-secondary-glow);
 }
+.container-2sjPya{
+    margin-left: -20px;
+    margin-right: auto;
+    width: fit-content;
+}
+#app-mount .message-2CShn3[data-is-author-self="true"] .container-2sjPya{
+    margin-left: auto;
+    margin-right: -16px;
+    width: fit-content;
+}
+.embed-hKpSrO {
+    contain: unset;
+    border-radius: 0px;
+}
+
 /* Chat messages */
 #app-mount .message-2CShn3 .contents-2MsGLg .messageContent-2t3eCI {
     margin-left: -20px;
@@ -403,13 +425,13 @@
     width: fit-content;
     border-radius: 0px;
     background-color: var(--background-secondary);
-    background-image: linear-gradient(90deg, var(--background-accent), var(--brand-experiment-100));
-    /* box-shadow: var(--full-secondary-glow); */
+    background-image: var(--linear-gradient-horizontal);
+    box-shadow: var(--slight-secondary-glow); 
 }
 #app-mount .message-2CShn3[data-is-author-self="true"] .contents-2MsGLg .messageContent-2t3eCI {
     margin-left: auto;
     margin-right: 4px;
-    background-image: linear-gradient(90deg, var(--brand-experiment-100), var(--background-accent));
+    background-image: var(--linear-gradient-horizontal-inverted);
 }
 
 /* Search Results */
@@ -475,7 +497,7 @@ foreignObject {
 
 /* Status Indicator*/
 rect[class="pointerEvents-9SZWKj"] {
-    fill: var(--status-danger);
+    fill: hsl(var(--hue-secondary),100%,050%,100%);
 }
 
 /* Voice channel chat preview */
@@ -492,23 +514,23 @@ rect[class="pointerEvents-9SZWKj"] {
 
 /* Video and Screen button */
 .button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
-    background-color: var(--text-link);
-    color: var(--brand-experiment-200);
+    background-color: hsl(var(--hue-secondary),100%,050%,100%);
+    color: hsl(var(--hue-primary),000%,000%,100%);
     padding: 0px;
 }
 .button-1EGGcP{
     box-shadow: var(--full-primary-glow);
 }
 .button-1EGGcP.buttonColor-3bP3fX:hover, .button-1EGGcP .buttonColor-3bP3fX:hover {
-    background-color: rgb(200 0 200 / 100%);
+    background-color: , hsl(var(--hue-secondary),100%,030%,100%); 
 }
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
-    background-color: var(--text-normal);
-    color: var(--brand-experiment-200);
+    background-color: hsl(var(--hue-primary),100%,050%,100%);
+    color: hsl(var(--hue-primary),000%,000%,100%);
     box-shadow: var(--full-secondary-glow);
 }
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
-    background-color: rgb(200 000 000 / 100%);
+    background-color: hsl(var(--hue-primary),100%,030%,100%);
 }
 
 /* All buttons */
@@ -516,12 +538,12 @@ rect[class="pointerEvents-9SZWKj"] {
     border-radius: 0px;
 }
 .lookFilled-yCfaCM.colorGreen-3y-Z79 {
-    color: var(--brand-experiment-200);
-    background-color: var(--text-link);
+    color: hsl(var(--hue-primary),000%,000%,100%);
+    background-color: hsl(var(--hue-secondary),100%,050%,100%);
     box-shadow: var(--full-primary-glow);
 }
 .lookFilled-yCfaCM.colorGreen-3y-Z79:hover {
-    background-color: rgb(200 000 000 / 100%);;
+    background-color: hsl(var(--hue-primary),100%,030%,100%);
 }
 
 /* Call Buttons */
@@ -532,27 +554,27 @@ rect[class="pointerEvents-9SZWKj"] {
     box-shadow: var(--full-secondary-glow);
 }
 .colorable-3rVGna.primaryDark-2UJt1G, .colorable-3rVGna.primaryDark-2UJt1G .centerIcon-JYpTUi {
-    color: rgb(000 000 000 / 100%);
+    color: hsl(var(--hue-primary),000%,000%,100%);
 }
 .colorable-3rVGna.primaryDark-2UJt1G {
-    background: rgb(255 000 000 / 100%);
+    background: hsl(var(--hue-primary),100%,050%,100%);
     box-shadow: var(--full-secondary-glow);
 }
 .colorable-3rVGna.white-11auuQ, .colorable-3rVGna.white-11auuQ .centerIcon-JYpTUi {
-    color: rgb(000 000 000 / 100%);
+    color: hsl(var(--hue-primary),000%,000%,100%);
 }
 .colorable-3rVGna.white-11auuQ {
-    background: rgb(255 255 255 / 100%);
+    background: hsl(var(--hue-primary),000%,100%,100%);
     box-shadow: var(--full-secondary-glow);
 }
 .colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, .colorable-3rVGna.primaryDark-2UJt1G:hover {
-    background: rgb(255 255 255 / 100%);
+    background: hsl(var(--hue-primary),000%,100%,100%);
 }
 .colorable-3rVGna.red-3T8maV, .colorable-3rVGna.red-3T8maV .centerIcon-JYpTUi {
-    color: rgb(000 000 000 / 100%);
+    color: hsl(var(--hue-primary),000%,000%,100%);
 }
 .colorable-3rVGna.red-3T8maV {
-    background: rgb(255 000 255 / 100%);
+    background: hsl(var(--hue-secondary),100%,050%,100%);
     box-shadow: var(--full-primary-glow);
 }
 
