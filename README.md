@@ -17,7 +17,7 @@ Install this theme like any other theme:
 3. Run `git clone https://github.com/Shintensu/DiscordCustomCSS.git`.
 4. In Powercord/Replugged, select the option "Scan for missing themes".
 5. Enjoy the theme! ^_^
-
+> Note: In order to automatically get the latest version, make sure that the toggle for checking version number in manifest under updater settings is **disabled**
 ### BetterDiscord
 #### NOTE: THIS THEME DOES NOT AUTOMATICALLY UPDATE *YET*.
 Pre-requisites: [BDFDB](https://betterdiscord.app/plugin/BDFDB) must be enabled for right alinged message bubbles to work!
@@ -27,10 +27,10 @@ Pre-requisites: [BDFDB](https://betterdiscord.app/plugin/BDFDB) must be enabled 
 4. Make sure the theme is enabled.
 5. Enjoy the theme! ^_^
 
-## KNOWN ISSUES
-- Replies appear incorrectly.
-- The Font is broken.
-- The theme doesnt automatically update in BetterDiscord.
+> Note: The easiest way to modify settings in the theme is by using the [ThemeSettings](https://betterdiscord.app/plugin/ThemeSettings) plugin by DevilBro.
+
+## ISSUES
+Please report any issues in the [issues](https://github.com/Shintensu/DiscordCustomCSS/issues) tab.
 ## Previews
 ##### Cursor not included.
 
