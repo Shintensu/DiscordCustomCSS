@@ -607,7 +607,7 @@ rect[class="pointerEvents-9SZWKj"] {
 
 
 /* Server list at top */
-.wrapper-1_HaEi {
+/*.wrapper-1_HaEi {
     flex-direction: row;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -665,7 +665,7 @@ div[aria-label="Servers"] {
 /* Seperator thingy? made it 0px so it doesnt ruin the layout */
 .guildSeparator-a4uisj {
     width: 0px;
-}
+}*/
 
 /* Server folder fix */
 div[class="wrapper-38slSD expanded"]{
